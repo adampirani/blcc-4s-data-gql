@@ -11,6 +11,7 @@ import { GameImage } from './schemas/GameImage';
 import { League } from './schemas/League';
 import { Team } from './schemas/Team';
 import { User } from './schemas/User';
+import { insertSeedEnds } from './seed-data/seedEnds';
 import { insertSeedLeagues } from './seed-data/seedLeagues';
 import { insertSeedTeams } from './seed-data/seedTeams';
 import { insertSeedGames } from './seed-data/seedGames';
@@ -52,6 +53,8 @@ export default withAuth(
           await insertSeedTeams(keystone);
         } else if (process.argv.includes('--seed-games')) {
           await insertSeedGames(keystone);
+        } else if (process.argv.includes('--seed-ends')) {
+          await insertSeedEnds(keystone);
         }
       },
     },

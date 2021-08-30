@@ -6,6 +6,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "keystone-next",
+    "seed-ends": "keystone-next --seed-ends",
     "seed-games": "keystone-next --seed-games",
     "seed-league": "keystone-next --seed-league",
     "seed-teams": "keystone-next --seed-teams"
