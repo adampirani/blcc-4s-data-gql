@@ -6,7 +6,8 @@
   "license": "MIT",
   "scripts": {
     "dev": "keystone-next",
-    "seed-league": "keystone-next --seed-league"
+    "seed-league": "keystone-next --seed-league",
+    "seed-teams": "keystone-next --seed-teams"
   },
   "eslintConfig": {
     "extends": "wesbos/typescript.js",

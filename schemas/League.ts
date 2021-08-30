@@ -5,8 +5,8 @@ export const League = list({
   // TODO
   // access:
   fields: {
-    slug: text({ isRequired: true }),
-    name: text({ isRequired: true }),
+    slug: text({ isUnique: true, isRequired: true }),
+    name: text({ isUnique: true, isRequired: true }),
     isActive: checkbox({ defaultValue: false }),
     currentWeek: integer({
       defaultValue: 1,
@@ -25,5 +25,10 @@ export const League = list({
         },
       },
     }),
+  },
+  ui: {
+    listView: {
+      initialColumns: ['name', 'slug', 'isActive', 'currentWeek'],
+    },
   },
 });

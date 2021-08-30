@@ -7,9 +7,11 @@ import {
 } from '@keystone-next/keystone/session';
 import { User } from './schemas/User';
 import { League } from './schemas/League';
+import { Team } from './schemas/Team';
 // import { Product } from './schemas/Product';
 // import { ProductImage } from './schemas/ProductImage';
 import { insertSeedLeagues } from './seed-data/seedLeagues';
+import { insertSeedTeams } from './seed-data/seedTeams';
 
 const databaseURL =
   process.env.DATABASE_URL || 'mongodb://localhost/keystone-blcc-data';
@@ -44,6 +46,8 @@ export default withAuth(
       async onConnect(keystone) {
         if (process.argv.includes('--seed-league')) {
           await insertSeedLeagues(keystone);
+        } else if (process.argv.includes('--seed-teams')) {
+          await insertSeedTeams(keystone);
         }
       },
     },
@@ -51,6 +55,7 @@ export default withAuth(
       // Schema items go in here
       User,
       League,
+      Team,
       // ProductImage,
     }),
     ui: {

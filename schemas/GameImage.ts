@@ -6,21 +6,20 @@ export const cloudinary = {
   cloudName: process.env.CLOUDINARY_CLOUD_NAME,
   apiKey: process.env.CLOUDINARY_KEY,
   apiSecret: process.env.CLOUDINARY_SECRET,
-  folder: 'sickfits',
+  folder: 'blcc',
 };
 
-export const ProductImage = list({
+export const GameImage = list({
   fields: {
     image: cloudinaryImage({
       cloudinary,
       label: 'Source',
     }),
-    altText: text(),
-    product: relationship({ ref: 'Product.photo' }),
+    game: relationship({ ref: 'Game.image' }),
   },
   ui: {
     listView: {
-      initialColumns: ['image', 'altText', 'product'],
+      initialColumns: ['image', 'game'],
     },
   },
 });
