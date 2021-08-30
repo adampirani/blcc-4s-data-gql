@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "keystone-next",
     "deploy": "keystone-next build && keystone-next prisma migrate deploy",
-    "postinstall": "keystone-next postinstall",
+    "postinstall": "keystone-next build",
     "start": "keystone-next start",
     "seed-ends": "keystone-next --seed-ends",
     "seed-games": "keystone-next --seed-games",
