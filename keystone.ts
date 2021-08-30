@@ -6,12 +6,13 @@ import {
   statelessSessions,
 } from '@keystone-next/keystone/session';
 import { User } from './schemas/User';
-import { Product } from './schemas/Product';
-import { ProductImage } from './schemas/ProductImage';
-import { insertSeedData } from './seed-data';
+import { League } from './schemas/League';
+// import { Product } from './schemas/Product';
+// import { ProductImage } from './schemas/ProductImage';
+import { insertSeedLeagues } from './seed-data/seedLeagues';
 
 const databaseURL =
-  process.env.DATABASE_URL || 'mongodb://localhost/keystone-sick-fits-tutorial';
+  process.env.DATABASE_URL || 'mongodb://localhost/keystone-blcc-data';
 
 const sessionConfig = {
   maxAge: 60 * 60 * 24 * 360, // How long to stay signed in
@@ -41,21 +42,22 @@ export default withAuth(
       url: databaseURL,
       // Seed data if flag present
       async onConnect(keystone) {
-        if (process.argv.includes('--seed-data')) {
-          await insertSeedData(keystone);
+        if (process.argv.includes('--seed-league')) {
+          await insertSeedLeagues(keystone);
         }
       },
     },
     lists: createSchema({
       // Schema items go in here
       User,
-      Product,
-      ProductImage,
+      League,
+      // ProductImage,
     }),
     ui: {
       // Show the UI only for ppl who pass this test
       isAccessAllowed: ({ session }) => {
         console.log(session);
+        // eslint-disable-next-line @typescript-eslint/no-unsafe-member-access
         return !!session?.data;
       },
     },
