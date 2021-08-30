@@ -1,4 +1,4 @@
-import { integer, text, checkbox, relationship } from '@keystone-next/fields';
+import { integer, text, relationship } from '@keystone-next/fields';
 import { list } from '@keystone-next/keystone/schema';
 
 export const Team = list({

@@ -5,13 +5,15 @@ import {
   withItemData,
   statelessSessions,
 } from '@keystone-next/keystone/session';
-import { User } from './schemas/User';
+import { End } from './schemas/End';
+import { Game } from './schemas/Game';
+import { GameImage } from './schemas/GameImage';
 import { League } from './schemas/League';
 import { Team } from './schemas/Team';
-// import { Product } from './schemas/Product';
-// import { ProductImage } from './schemas/ProductImage';
+import { User } from './schemas/User';
 import { insertSeedLeagues } from './seed-data/seedLeagues';
 import { insertSeedTeams } from './seed-data/seedTeams';
+import { insertSeedGames } from './seed-data/seedGames';
 
 const databaseURL =
   process.env.DATABASE_URL || 'mongodb://localhost/keystone-blcc-data';
@@ -48,6 +50,8 @@ export default withAuth(
           await insertSeedLeagues(keystone);
         } else if (process.argv.includes('--seed-teams')) {
           await insertSeedTeams(keystone);
+        } else if (process.argv.includes('--seed-games')) {
+          await insertSeedGames(keystone);
         }
       },
     },
@@ -56,7 +60,9 @@ export default withAuth(
       User,
       League,
       Team,
-      // ProductImage,
+      End,
+      Game,
+      GameImage,
     }),
     ui: {
       // Show the UI only for ppl who pass this test
