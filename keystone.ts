@@ -34,13 +34,18 @@ const { withAuth } = createAuth({
   },
 });
 
+const corsOrigin = process.env.FRONTEND_URL_REGEX
+  ? new RegExp(process.env.FRONTEND_URL_REGEX)
+  : process.env.FRONTEND_URL;
+
 export default withAuth(
   config({
     server: {
       cors: {
-        origin: [process.env.FRONTEND_URL],
+        origin: [corsOrigin],
         credentials: true,
       },
+      port: parseInt(process.env.PORT) || 3000,
     },
     db: {
       adapter: 'mongoose',
@@ -69,11 +74,9 @@ export default withAuth(
     }),
     ui: {
       // Show the UI only for ppl who pass this test
-      isAccessAllowed: ({ session }) => {
-        console.log(session);
+      isAccessAllowed: ({ session }) =>
         // eslint-disable-next-line @typescript-eslint/no-unsafe-member-access
-        return !!session?.data;
-      },
+        !!session?.data,
     },
     session: withItemData(statelessSessions(sessionConfig), {
       // GraphQL Query
