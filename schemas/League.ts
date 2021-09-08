@@ -1,4 +1,10 @@
-import { integer, text, checkbox } from '@keystone-next/fields';
+import {
+  integer,
+  text,
+  checkbox,
+  relationship,
+  timestamp,
+} from '@keystone-next/fields';
 import { list } from '@keystone-next/keystone/schema';
 
 export const League = list({
@@ -8,6 +14,8 @@ export const League = list({
     slug: text({ isUnique: true, isRequired: true }),
     name: text({ isUnique: true, isRequired: true }),
     isActive: checkbox({ defaultValue: false }),
+    weeks: relationship({ ref: 'Week.league', many: true }),
+    leagueStart: timestamp(),
     currentWeek: integer({
       defaultValue: 1,
       ui: {
@@ -28,7 +36,14 @@ export const League = list({
   },
   ui: {
     listView: {
-      initialColumns: ['name', 'slug', 'isActive', 'currentWeek'],
+      initialColumns: [
+        'name',
+        'slug',
+        'leagueStart',
+        'isActive',
+        'currentWeek',
+      ],
+      initialSort: { field: 'leagueStart', direction: 'DESC' },
     },
   },
 });

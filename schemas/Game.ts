@@ -6,8 +6,8 @@ export const Game = list({
     league: relationship({
       ref: 'League',
     }),
-    week: integer({
-      isRequired: true,
+    week: relationship({
+      ref: 'Week.games',
     }),
     sheet: integer({
       isRequired: true,

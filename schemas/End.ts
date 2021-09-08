@@ -1,8 +1,14 @@
-import { integer, relationship, select } from '@keystone-next/fields';
+import { integer, relationship, select, virtual } from '@keystone-next/fields';
 import { list } from '@keystone-next/keystone/schema';
 
 export const End = list({
   fields: {
+    label: virtual({
+      graphQLReturnType: 'String',
+      resolver(end) {
+        return `${end.number}`;
+      },
+    }),
     game: relationship({
       ref: 'Game.ends',
       many: false,

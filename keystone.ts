@@ -11,10 +11,12 @@ import { GameImage } from './schemas/GameImage';
 import { League } from './schemas/League';
 import { Team } from './schemas/Team';
 import { User } from './schemas/User';
+import { Week } from './schemas/Week';
 import { insertSeedEnds } from './seed-data/seedEnds';
 import { insertSeedLeagues } from './seed-data/seedLeagues';
 import { insertSeedTeams } from './seed-data/seedTeams';
 import { insertSeedGames } from './seed-data/seedGames';
+import { formatGameWeeks } from './seed-data/formatGameWeeks';
 
 const databaseURL =
   process.env.DATABASE_URL || 'mongodb://localhost/keystone-blcc-data';
@@ -60,6 +62,8 @@ export default withAuth(
           await insertSeedGames(keystone);
         } else if (process.argv.includes('--seed-ends')) {
           await insertSeedEnds(keystone);
+        } else if (process.argv.includes('--format-game-weeks')) {
+          await formatGameWeeks(keystone);
         }
       },
     },
@@ -71,6 +75,7 @@ export default withAuth(
       End,
       Game,
       GameImage,
+      Week,
     }),
     ui: {
       // Show the UI only for ppl who pass this test
