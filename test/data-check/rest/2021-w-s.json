@@ -1,0 +1,490 @@
+{
+  "league": {
+    "id": "2021-w-s",
+    "name": "2021 Winter Sunday",
+    "currentWeek": 7
+  },
+  "weeks": [
+    {
+      "week": 1,
+      "games": [
+        {
+          "sheet": 1,
+          "id": "2021-w-s-1-1",
+          "teams": {
+            "top": { "id": "2021-w-s-1", "name": "Sweep the Leg" },
+            "bottom": { "id": "2021-w-s-2", "name": "Wham!" }
+          },
+          "ends": [
+            { "isBlank": false, "scoringTeam": "bottom", "score": 1 },
+            { "isBlank": false, "scoringTeam": "top", "score": 3 },
+            { "isBlank": false, "scoringTeam": "top", "score": 1 },
+            { "isBlank": false, "scoringTeam": "bottom", "score": 2 },
+            { "isBlank": false, "scoringTeam": "bottom", "score": 1 },
+            { "isBlank": false, "scoringTeam": "top", "score": 2 }
+          ]
+        },
+        {
+          "sheet": 2,
+          "id": "2021-w-s-1-2",
+          "teams": {
+            "top": { "id": "2021-w-s-4", "name": "Team 4" },
+            "bottom": { "id": "2021-w-s-3", "name": "Serial Sweepers" }
+          },
+          "ends": [
+            { "isBlank": false, "scoringTeam": "bottom", "score": 1 },
+            { "isBlank": false, "scoringTeam": "bottom", "score": 1 },
+            { "isBlank": false, "scoringTeam": "bottom", "score": 1 },
+            { "isBlank": false, "scoringTeam": "top", "score": 1 },
+            { "isBlank": false, "scoringTeam": "bottom", "score": 3 },
+            { "isBlank": false, "scoringTeam": "top", "score": 1 }
+          ]
+        },
+        {
+          "sheet": 3,
+          "id": "2021-w-s-1-3",
+          "teams": {
+            "top": { "id": "2021-w-s-6", "name": "Deviled Eggs" },
+            "bottom": { "id": "2021-w-s-5", "name": "Curl Jam" }
+          },
+          "ends": [
+            { "isBlank": false, "scoringTeam": "bottom", "score": 2 },
+            { "isBlank": false, "scoringTeam": "bottom", "score": 3 },
+            { "isBlank": false, "scoringTeam": "top", "score": 2 },
+            { "isBlank": false, "scoringTeam": "bottom", "score": 1 },
+            { "isBlank": false, "scoringTeam": "top", "score": 3 },
+            { "isBlank": false, "scoringTeam": "bottom", "score": 1 }
+          ]
+        },
+        {
+          "sheet": 4,
+          "id": "2021-w-s-1-4",
+          "teams": {
+            "top": { "id": "2021-w-s-8", "name": "Swept Away" },
+            "bottom": { "id": "2021-w-s-7", "name": "Team Stone Cold" }
+          },
+          "ends": [
+            { "isBlank": false, "scoringTeam": "top", "score": 1 },
+            { "isBlank": false, "scoringTeam": "bottom", "score": 3 },
+            { "isBlank": false, "scoringTeam": "bottom", "score": 4 },
+            { "isBlank": false, "scoringTeam": "bottom", "score": 2 },
+            { "isBlank": false, "scoringTeam": "bottom", "score": 3 },
+            { "isBlank": false, "scoringTeam": "top", "score": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "games": [
+        {
+          "sheet": 1,
+          "id": "2021-w-s-2-1",
+          "teams": {
+            "top": { "id": "2021-w-s-6", "name": "Deviled Eggs" },
+            "bottom": { "id": "2021-w-s-3", "name": "Serial Sweepers" }
+          },
+          "ends": [
+            { "isBlank": false, "scoringTeam": "top", "score": 1 },
+            { "isBlank": false, "scoringTeam": "top", "score": 2 },
+            { "isBlank": false, "scoringTeam": "top", "score": 2 },
+            { "isBlank": false, "scoringTeam": "bottom", "score": 1 },
+            { "isBlank": false, "scoringTeam": "top", "score": 1 },
+            { "isBlank": false, "scoringTeam": "top", "score": 3 }
+          ]
+        },
+        {
+          "sheet": 2,
+          "id": "2021-w-s-2-2",
+          "teams": {
+            "top": { "id": "2021-w-s-7", "name": "Team Stone Cold" },
+            "bottom": { "id": "2021-w-s-1", "name": "Sweep the Leg" }
+          },
+          "ends": [
+            { "isBlank": false, "scoringTeam": "bottom", "score": 1 },
+            { "isBlank": false, "scoringTeam": "top", "score": 3 },
+            { "isBlank": false, "scoringTeam": "bottom", "score": 1 },
+            { "isBlank": false, "scoringTeam": "bottom", "score": 2 },
+            { "isBlank": false, "scoringTeam": "top", "score": 2 },
+            { "isBlank": false, "scoringTeam": "bottom", "score": 1 }
+          ]
+        },
+        {
+          "sheet": 3,
+          "id": "2021-w-s-2-3",
+          "teams": {
+            "top": { "id": "2021-w-s-2", "name": "Wham!" },
+            "bottom": { "id": "2021-w-s-8", "name": "Swept Away" }
+          },
+          "ends": [
+            { "isBlank": false, "scoringTeam": "top", "score": 0 },
+            { "isBlank": false, "scoringTeam": "top", "score": 1 },
+            { "isBlank": false, "scoringTeam": "bottom", "score": 0 },
+            { "isBlank": false, "scoringTeam": "top", "score": 2 },
+            { "isBlank": false, "scoringTeam": "bottom", "score": 1 },
+            { "isBlank": false, "scoringTeam": "bottom", "score": 1 }
+          ]
+        },
+        {
+          "sheet": 4,
+          "id": "2021-w-s-2-4",
+          "teams": {
+            "top": { "id": "2021-w-s-5", "name": "Curl Jam" },
+            "bottom": { "id": "2021-w-s-4", "name": "Team 4" }
+          },
+          "ends": [
+            { "isBlank": false, "scoringTeam": "bottom", "score": 1 },
+            { "isBlank": false, "scoringTeam": "top", "score": 1 },
+            { "isBlank": false, "scoringTeam": "bottom", "score": 3 },
+            { "isBlank": false, "scoringTeam": "bottom", "score": 2 },
+            { "isBlank": false, "scoringTeam": "top", "score": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "games": [
+        {
+          "sheet": 1,
+          "id": "2021-w-s-3-1",
+          "teams": {
+            "top": { "id": "2021-w-s-7", "name": "Team Stone Cold" },
+            "bottom": { "id": "2021-w-s-2", "name": "Wham!" }
+          },
+          "ends": [
+            { "isBlank": false, "scoringTeam": "top", "score": 2 },
+            { "isBlank": false, "scoringTeam": "bottom", "score": 1 },
+            { "isBlank": false, "scoringTeam": "bottom", "score": 1 },
+            { "isBlank": false, "scoringTeam": "bottom", "score": 1 },
+            { "isBlank": false, "scoringTeam": "top", "score": 1 },
+            { "isBlank": false, "scoringTeam": "bottom", "score": 1 }
+          ]
+        },
+        {
+          "sheet": 2,
+          "id": "2021-w-s-3-2",
+          "teams": {
+            "top": { "id": "2021-w-s-6", "name": "Deviled Eggs" },
+            "bottom": { "id": "2021-w-s-4", "name": "Team 4" }
+          },
+          "ends": [
+            { "isBlank": false, "scoringTeam": "top", "score": 2 },
+            { "isBlank": false, "scoringTeam": "top", "score": 3 },
+            { "isBlank": false, "scoringTeam": "bottom", "score": 2 },
+            { "isBlank": false, "scoringTeam": "bottom", "score": 3 },
+            { "isBlank": false, "scoringTeam": "top", "score": 2 },
+            { "isBlank": false, "scoringTeam": "bottom", "score": 2 }
+          ]
+        },
+        {
+          "sheet": 3,
+          "id": "2021-w-s-3-3",
+          "teams": {
+            "top": { "id": "2021-w-s-3", "name": "Serial Sweepers" },
+            "bottom": { "id": "2021-w-s-8", "name": "Swept Away" }
+          },
+          "ends": [
+            { "isBlank": false, "scoringTeam": "top", "score": 1 },
+            { "isBlank": false, "scoringTeam": "top", "score": 2 },
+            { "isBlank": false, "scoringTeam": "top", "score": 2 },
+            { "isBlank": false, "scoringTeam": "top", "score": 1 },
+            { "isBlank": false, "scoringTeam": "top", "score": 1 },
+            { "isBlank": false, "scoringTeam": "bottom", "score": 0 }
+          ]
+        },
+        {
+          "sheet": 4,
+          "id": "2021-w-s-3-4",
+          "teams": {
+            "top": { "id": "2021-w-s-5", "name": "Curl Jam" },
+            "bottom": { "id": "2021-w-s-1", "name": "Sweep the Leg" }
+          },
+          "ends": [
+            { "isBlank": false, "scoringTeam": "top", "score": 1 },
+            { "isBlank": false, "scoringTeam": "top", "score": 1 },
+            { "isBlank": false, "scoringTeam": "top", "score": 1 },
+            { "isBlank": false, "scoringTeam": "bottom", "score": 0 },
+            { "isBlank": false, "scoringTeam": "bottom", "score": 2 },
+            { "isBlank": false, "scoringTeam": "top", "score": 2 }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "games": [
+        {
+          "sheet": 1,
+          "id": "2021-w-s-4-1",
+          "teams": {
+            "top": { "id": "2021-w-s-5", "name": "Curl Jam" },
+            "bottom": { "id": "2021-w-s-8", "name": "Swept Away" }
+          },
+          "ends": [
+            { "isBlank": false, "scoringTeam": "top", "score": 2 },
+            { "isBlank": false, "scoringTeam": "top", "score": 1 },
+            { "isBlank": false, "scoringTeam": "top", "score": 1 },
+            { "isBlank": false, "scoringTeam": "top", "score": 1 },
+            { "isBlank": false, "scoringTeam": "top", "score": 1 },
+            { "isBlank": false, "scoringTeam": "bottom", "score": 0 },
+            { "isBlank": false, "scoringTeam": "bottom", "score": 2 }
+          ]
+        },
+        {
+          "sheet": 2,
+          "id": "2021-w-s-4-2",
+          "teams": {
+            "top": { "id": "2021-w-s-2", "name": "Wham!" },
+            "bottom": { "id": "2021-w-s-3", "name": "Serial Sweepers" }
+          },
+          "ends": [
+            { "isBlank": false, "scoringTeam": "bottom", "score": 0 },
+            { "isBlank": false, "scoringTeam": "bottom", "score": 3 },
+            { "isBlank": false, "scoringTeam": "top", "score": 1 },
+            { "isBlank": false, "scoringTeam": "top", "score": 2 },
+            { "isBlank": false, "scoringTeam": "bottom", "score": 1 },
+            { "isBlank": false, "scoringTeam": "top", "score": 2 }
+          ]
+        },
+        {
+          "sheet": 3,
+          "id": "2021-w-s-4-3",
+          "teams": {
+            "top": { "id": "2021-w-s-1", "name": "Sweep the Leg" },
+            "bottom": { "id": "2021-w-s-6", "name": "Deviled Eggs" }
+          },
+          "ends": [
+            { "isBlank": false, "scoringTeam": "top", "score": 2 },
+            { "isBlank": false, "scoringTeam": "top", "score": 2 },
+            { "isBlank": false, "scoringTeam": "top", "score": 1 },
+            { "isBlank": false, "scoringTeam": "top", "score": 0 },
+            { "isBlank": false, "scoringTeam": "bottom", "score": 1 },
+            { "isBlank": false, "scoringTeam": "bottom", "score": 3 }
+          ]
+        },
+        {
+          "sheet": 4,
+          "id": "2021-w-s-4-4",
+          "teams": {
+            "top": { "id": "2021-w-s-7", "name": "Team Stone Cold" },
+            "bottom": { "id": "2021-w-s-4", "name": "Team 4" }
+          },
+          "ends": [
+            { "isBlank": false, "scoringTeam": "bottom", "score": 0 },
+            { "isBlank": false, "scoringTeam": "bottom", "score": 1 },
+            { "isBlank": false, "scoringTeam": "top", "score": 1 },
+            { "isBlank": false, "scoringTeam": "top", "score": 1 },
+            { "isBlank": false, "scoringTeam": "top", "score": 1 },
+            { "isBlank": false, "scoringTeam": "bottom", "score": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "games": [
+        {
+          "sheet": 1,
+          "id": "2021-w-s-5-1",
+          "teams": {
+            "top": { "id": "2021-w-s-4", "name": "Team 4" },
+            "bottom": { "id": "2021-w-s-1", "name": "Sweep the Leg" }
+          },
+          "ends": [
+            { "isBlank": false, "scoringTeam": "bottom", "score": 0 },
+            { "isBlank": false, "scoringTeam": "bottom", "score": 2 },
+            { "isBlank": false, "scoringTeam": "top", "score": 2 },
+            { "isBlank": false, "scoringTeam": "bottom", "score": 1 },
+            { "isBlank": false, "scoringTeam": "bottom", "score": 2 },
+            { "isBlank": false, "scoringTeam": "bottom", "score": 2 }
+          ]
+        },
+        {
+          "sheet": 2,
+          "id": "2021-w-s-5-2",
+          "teams": {
+            "top": { "id": "2021-w-s-5", "name": "Curl Jam" },
+            "bottom": { "id": "2021-w-s-2", "name": "Wham!" }
+          },
+          "ends": [
+            { "isBlank": false, "scoringTeam": "top", "score": 1 },
+            { "isBlank": false, "scoringTeam": "top", "score": 2 },
+            { "isBlank": false, "scoringTeam": "top", "score": 1 },
+            { "isBlank": false, "scoringTeam": "bottom", "score": 1 },
+            { "isBlank": false, "scoringTeam": "top", "score": 2 },
+            { "isBlank": false, "scoringTeam": "top", "score": 2 }
+          ]
+        },
+        {
+          "sheet": 3,
+          "id": "2021-w-s-5-3",
+          "teams": {
+            "top": { "id": "2021-w-s-7", "name": "Team Stone Cold" },
+            "bottom": { "id": "2021-w-s-3", "name": "Serial Sweepers" }
+          },
+          "ends": [
+            { "isBlank": false, "scoringTeam": "top", "score": 1 },
+            { "isBlank": false, "scoringTeam": "bottom", "score": 1 },
+            { "isBlank": false, "scoringTeam": "bottom", "score": 1 },
+            { "isBlank": false, "scoringTeam": "top", "score": 1 },
+            { "isBlank": false, "scoringTeam": "top", "score": 3 },
+            { "isBlank": false, "scoringTeam": "top", "score": 1 }
+          ]
+        },
+        {
+          "sheet": 4,
+          "id": "2021-w-s-5-4",
+          "teams": {
+            "top": { "id": "2021-w-s-6", "name": "Deviled Eggs" },
+            "bottom": { "id": "2021-w-s-8", "name": "Swept Away" }
+          },
+          "ends": [
+            { "isBlank": false, "scoringTeam": "bottom", "score": 1 },
+            { "isBlank": false, "scoringTeam": "top", "score": 1 },
+            { "isBlank": false, "scoringTeam": "top", "score": 3 },
+            { "isBlank": false, "scoringTeam": "bottom", "score": 1 },
+            { "isBlank": false, "scoringTeam": "bottom", "score": 1 },
+            { "isBlank": false, "scoringTeam": "bottom", "score": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "games": [
+        {
+          "sheet": 1,
+          "id": "2021-w-s-6-1",
+          "teams": {
+            "top": { "id": "2021-w-s-5", "name": "Curl Jam" },
+            "bottom": { "id": "2021-w-s-7", "name": "Team Stone Cold" }
+          },
+          "ends": [
+            { "isBlank": false, "scoringTeam": "bottom", "score": 1 },
+            { "isBlank": false, "scoringTeam": "bottom", "score": 1 },
+            { "isBlank": false, "scoringTeam": "bottom", "score": 1 },
+            { "isBlank": false, "scoringTeam": "top", "score": 1 },
+            { "isBlank": false, "scoringTeam": "top", "score": 1 },
+            { "isBlank": false, "scoringTeam": "bottom", "score": 4 }
+          ]
+        },
+        {
+          "sheet": 2,
+          "id": "2021-w-s-6-2",
+          "teams": {
+            "top": { "id": "2021-w-s-8", "name": "Swept Away" },
+            "bottom": { "id": "2021-w-s-4", "name": "Team 4" }
+          },
+          "ends": [
+            { "isBlank": false, "scoringTeam": "top", "score": 1 },
+            { "isBlank": false, "scoringTeam": "top", "score": 2 },
+            { "isBlank": false, "scoringTeam": "top", "score": 1 },
+            { "isBlank": false, "scoringTeam": "bottom", "score": 4 },
+            { "isBlank": false, "scoringTeam": "bottom", "score": 1 }
+          ]
+        },
+        {
+          "sheet": 3,
+          "id": "2021-w-s-6-3",
+          "teams": {
+            "top": { "id": "2021-w-s-3", "name": "Serial Sweepers" },
+            "bottom": { "id": "2021-w-s-1", "name": "Sweep the Leg" }
+          },
+          "ends": [
+            { "isBlank": false, "scoringTeam": "bottom", "score": 1 },
+            { "isBlank": false, "scoringTeam": "top", "score": 3 },
+            { "isBlank": false, "scoringTeam": "top", "score": 1 },
+            { "isBlank": false, "scoringTeam": "top", "score": 2 },
+            { "isBlank": false, "scoringTeam": "top", "score": 3 },
+            { "isBlank": false, "scoringTeam": "top", "score": 1 }
+          ]
+        },
+        {
+          "sheet": 4,
+          "id": "2021-w-s-6-4",
+          "teams": {
+            "top": { "id": "2021-w-s-6", "name": "Deviled Eggs" },
+            "bottom": { "id": "2021-w-s-2", "name": "Wham!" }
+          },
+          "ends": [
+            { "isBlank": false, "scoringTeam": "top", "score": 4 },
+            { "isBlank": false, "scoringTeam": "bottom", "score": 1 },
+            { "isBlank": false, "scoringTeam": "bottom", "score": 2 },
+            { "isBlank": false, "scoringTeam": "top", "score": 2 },
+            { "isBlank": false, "scoringTeam": "top", "score": 2 },
+            { "isBlank": false, "scoringTeam": "bottom", "score": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "games": [
+        {
+          "sheet": 1,
+          "id": "2021-w-s-7-1",
+          "teams": {
+            "top": { "id": "2021-w-s-5", "name": "Curl Jam" },
+            "bottom": { "id": "2021-w-s-7", "name": "Team Stone Cold" }
+          },
+          "ends": [
+            { "isBlank": false, "scoringTeam": "bottom", "score": 1 },
+            { "isBlank": false, "scoringTeam": "top", "score": 1 },
+            { "isBlank": false, "scoringTeam": "top", "score": 1 },
+            { "isBlank": false, "scoringTeam": "top", "score": 2 },
+            { "isBlank": false, "scoringTeam": "top", "score": 2 },
+            { "isBlank": false, "scoringTeam": "top", "score": 1 }
+          ]
+        },
+        {
+          "sheet": 2,
+          "id": "2021-w-s-7-2",
+          "teams": {
+            "top": { "id": "2021-w-s-1", "name": "Sweep the Leg" },
+            "bottom": { "id": "2021-w-s-6", "name": "Deviled Eggs" }
+          },
+          "ends": [
+            { "isBlank": false, "scoringTeam": "bottom", "score": 1 },
+            { "isBlank": false, "scoringTeam": "bottom", "score": 1 },
+            { "isBlank": false, "scoringTeam": "bottom", "score": 2 },
+            { "isBlank": false, "scoringTeam": "bottom", "score": 2 },
+            { "isBlank": false, "scoringTeam": "top", "score": 2 }
+          ]
+        },
+        {
+          "sheet": 3,
+          "id": "2021-w-s-7-3",
+          "teams": {
+            "top": { "id": "2021-w-s-3", "name": "Serial Sweepers" },
+            "bottom": { "id": "2021-w-s-2", "name": "Wham!" }
+          },
+          "ends": [
+            { "isBlank": false, "scoringTeam": "bottom", "score": 1 },
+            { "isBlank": false, "scoringTeam": "top", "score": 1 },
+            { "isBlank": false, "scoringTeam": "top", "score": 2 },
+            { "isBlank": false, "scoringTeam": "top", "score": 2 },
+            { "isBlank": false, "scoringTeam": "top", "score": 1 },
+            { "isBlank": false, "scoringTeam": "top", "score": 2 }
+          ]
+        },
+        {
+          "sheet": 4,
+          "id": "2021-w-s-7-4",
+          "teams": {
+            "top": { "id": "2021-w-s-4", "name": "Team 4" },
+            "bottom": { "id": "2021-w-s-8", "name": "Swept Away" }
+          },
+          "ends": [
+            { "isBlank": false, "scoringTeam": "top", "score": 1 },
+            { "isBlank": false, "scoringTeam": "bottom", "score": 1 },
+            { "isBlank": false, "scoringTeam": "top", "score": 2 },
+            { "isBlank": false, "scoringTeam": "top", "score": 2 },
+            { "isBlank": false, "scoringTeam": "top", "score": 2 },
+            { "isBlank": false, "scoringTeam": "bottom", "score": 1 }
+          ]
+        }
+      ]
+    }
+  ]
+}

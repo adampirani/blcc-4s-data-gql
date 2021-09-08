@@ -1,0 +1,324 @@
+{
+  "league": {
+    "id": "2020-w-s-l",
+    "name": "2020 Winter Sunday Late",
+    "currentWeek": 6
+  },
+  "weeks": [
+    {
+      "week": 1,
+      "games": [
+        {
+          "sheet": 2,
+          "id": "2020-w-s-l-1-2",
+          "teams": {
+            "top": { "id": "2020-w-s-l-2", "name": "Girl Scout Troop 15" },
+            "bottom": { "id": "2020-w-s-l-4", "name": "No Sweep Till Brooklyn" }
+          },
+          "ends": [
+            { "isBlank": false, "scoringTeam": "bottom", "score": 2 },
+            { "isBlank": false, "scoringTeam": "top", "score": 1 },
+            { "isBlank": false, "scoringTeam": "top", "score": 1 },
+            { "isBlank": false, "scoringTeam": "top", "score": 2 },
+            { "isBlank": false, "scoringTeam": "bottom", "score": 3 },
+            { "isBlank": false, "scoringTeam": "top", "score": 2 }
+          ]
+        },
+        {
+          "sheet": 3,
+          "id": "2020-w-s-l-1-3",
+          "teams": {
+            "top": { "id": "2020-w-s-l-5", "name": "Ice Ice Baby" },
+            "bottom": { "id": "2020-w-s-l-1", "name": "Deviled Eggs" }
+          },
+          "ends": [
+            { "isBlank": false, "scoringTeam": "bottom", "score": 1 },
+            { "isBlank": false, "scoringTeam": "bottom", "score": 1 },
+            { "isBlank": false, "scoringTeam": "bottom", "score": 1 },
+            { "isBlank": false, "scoringTeam": "top", "score": 1 },
+            { "isBlank": false, "scoringTeam": "bottom", "score": 1 },
+            { "isBlank": false, "scoringTeam": "bottom", "score": 3 }
+          ]
+        },
+        {
+          "sheet": 4,
+          "id": "2020-w-s-l-1-4",
+          "teams": {
+            "top": { "id": "2020-w-s-l-3", "name": "House Rockers" },
+            "bottom": { "id": "2020-w-s-l-6", "name": "Salt, Fat, Acid, Sheet" }
+          },
+          "ends": [
+            { "isBlank": false, "scoringTeam": "top", "score": 0 },
+            { "isBlank": false, "scoringTeam": "top", "score": 1 },
+            { "isBlank": false, "scoringTeam": "top", "score": 2 },
+            { "isBlank": false, "scoringTeam": "top", "score": 1 },
+            { "isBlank": false, "scoringTeam": "bottom", "score": 2 },
+            { "isBlank": false, "scoringTeam": "top", "score": 3 }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "games": [
+        {
+          "sheet": 2,
+          "id": "2020-w-s-l-2-2",
+          "teams": {
+            "top": { "id": "2020-w-s-l-3", "name": "House Rockers" },
+            "bottom": { "id": "2020-w-s-l-5", "name": "Ice Ice Baby" }
+          },
+          "ends": [
+            { "isBlank": false, "scoringTeam": "top", "score": 1 },
+            { "isBlank": false, "scoringTeam": "top", "score": 1 },
+            { "isBlank": false, "scoringTeam": "top", "score": 2 },
+            { "isBlank": false, "scoringTeam": "top", "score": 1 },
+            { "isBlank": false, "scoringTeam": "top", "score": 2 },
+            { "isBlank": false, "scoringTeam": "bottom", "score": 1 }
+          ]
+        },
+        {
+          "sheet": 3,
+          "id": "2020-w-s-l-2-3",
+          "teams": {
+            "top": { "id": "2020-w-s-l-6", "name": "Salt, Fat, Acid, Sheet" },
+            "bottom": { "id": "2020-w-s-l-4", "name": "No Sweep Till Brooklyn" }
+          },
+          "ends": [
+            { "isBlank": false, "scoringTeam": "bottom", "score": 2 },
+            { "isBlank": false, "scoringTeam": "top", "score": 1 },
+            { "isBlank": false, "scoringTeam": "bottom", "score": 2 },
+            { "isBlank": false, "scoringTeam": "top", "score": 2 },
+            { "isBlank": false, "scoringTeam": "bottom", "score": 2 },
+            { "isBlank": false, "scoringTeam": "bottom", "score": 2 }
+          ]
+        },
+        {
+          "sheet": 4,
+          "id": "2020-w-s-l-2-4",
+          "teams": {
+            "top": { "id": "2020-w-s-l-1", "name": "Deviled Eggs" },
+            "bottom": { "id": "2020-w-s-l-2", "name": "Girl Scout Troop 15" }
+          },
+          "ends": [
+            { "isBlank": false, "scoringTeam": "bottom", "score": 2 },
+            { "isBlank": false, "scoringTeam": "top", "score": 2 },
+            { "isBlank": false, "scoringTeam": "bottom", "score": 2 },
+            { "isBlank": false, "scoringTeam": "bottom", "score": 1 },
+            { "isBlank": false, "scoringTeam": "top", "score": 3 },
+            { "isBlank": false, "scoringTeam": "top", "score": 3 }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "games": [
+        {
+          "sheet": 2,
+          "id": "2020-w-s-l-3-2",
+          "teams": {
+            "top": { "id": "2020-w-s-l-6", "name": "Salt, Fat, Acid, Sheet" },
+            "bottom": { "id": "2020-w-s-l-1", "name": "Deviled Eggs" }
+          },
+          "ends": [
+            { "isBlank": false, "scoringTeam": "bottom", "score": 1 },
+            { "isBlank": false, "scoringTeam": "bottom", "score": 1 },
+            { "isBlank": false, "scoringTeam": "top", "score": 1 },
+            { "isBlank": false, "scoringTeam": "bottom", "score": 1 },
+            { "isBlank": false, "scoringTeam": "bottom", "score": 1 },
+            { "isBlank": false, "scoringTeam": "top", "score": 1 }
+          ]
+        },
+        {
+          "sheet": 3,
+          "id": "2020-w-s-l-3-3",
+          "teams": {
+            "top": { "id": "2020-w-s-l-3", "name": "House Rockers" },
+            "bottom": { "id": "2020-w-s-l-2", "name": "Girl Scout Troop 15" }
+          },
+          "ends": [
+            { "isBlank": false, "scoringTeam": "bottom", "score": 1 },
+            { "isBlank": false, "scoringTeam": "bottom", "score": 2 },
+            { "isBlank": false, "scoringTeam": "top", "score": 1 },
+            { "isBlank": false, "scoringTeam": "top", "score": 1 },
+            { "isBlank": false, "scoringTeam": "bottom", "score": 3 },
+            { "isBlank": false, "scoringTeam": "bottom", "score": 1 }
+          ]
+        },
+        {
+          "sheet": 4,
+          "id": "2020-w-s-l-3-4",
+          "teams": {
+            "top": { "id": "2020-w-s-l-5", "name": "Ice Ice Baby" },
+            "bottom": { "id": "2020-w-s-l-4", "name": "No Sweep Till Brooklyn" }
+          },
+          "ends": [
+            { "isBlank": false, "scoringTeam": "bottom", "score": 2 },
+            { "isBlank": false, "scoringTeam": "bottom", "score": 2 },
+            { "isBlank": false, "scoringTeam": "bottom", "score": 4 },
+            { "isBlank": false, "scoringTeam": "bottom", "score": 1 },
+            { "isBlank": false, "scoringTeam": "bottom", "score": 4 },
+            { "isBlank": false, "scoringTeam": "bottom", "score": 3 }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "games": [
+        {
+          "sheet": 2,
+          "id": "2020-w-s-l-4-2",
+          "teams": {
+            "top": { "id": "2020-w-s-l-3", "name": "House Rockers" },
+            "bottom": { "id": "2020-w-s-l-4", "name": "No Sweep Till Brooklyn" }
+          },
+          "ends": [
+            { "isBlank": false, "scoringTeam": "top", "score": 1 },
+            { "isBlank": false, "scoringTeam": "top", "score": 1 },
+            { "isBlank": false, "scoringTeam": "bottom", "score": 2 },
+            { "isBlank": false, "scoringTeam": "bottom", "score": 3 },
+            { "isBlank": false, "scoringTeam": "bottom", "score": 2 },
+            { "isBlank": false, "scoringTeam": "top", "score": 1 }
+          ]
+        },
+        {
+          "sheet": 3,
+          "id": "2020-w-s-l-4-3",
+          "teams": {
+            "top": { "id": "2020-w-s-l-1", "name": "Deviled Eggs" },
+            "bottom": { "id": "2020-w-s-l-6", "name": "Salt, Fat, Acid, Sheet" }
+          },
+          "ends": [
+            { "isBlank": false, "scoringTeam": "bottom", "score": 1 },
+            { "isBlank": false, "scoringTeam": "bottom", "score": 1 },
+            { "isBlank": false, "scoringTeam": "bottom", "score": 1 },
+            { "isBlank": false, "scoringTeam": "bottom", "score": 1 }
+          ]
+        },
+        {
+          "sheet": 4,
+          "id": "2020-w-s-l-4-4",
+          "teams": {
+            "top": { "id": "2020-w-s-l-5", "name": "Ice Ice Baby" },
+            "bottom": { "id": "2020-w-s-l-2", "name": "Girl Scout Troop 15" }
+          },
+          "ends": [
+            { "isBlank": false, "scoringTeam": "bottom", "score": 1 },
+            { "isBlank": false, "scoringTeam": "bottom", "score": 1 },
+            { "isBlank": false, "scoringTeam": "bottom", "score": 4 },
+            { "isBlank": false, "scoringTeam": "top", "score": 2 },
+            { "isBlank": false, "scoringTeam": "bottom", "score": 1 },
+            { "isBlank": false, "scoringTeam": "top", "score": 2 }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "games": [
+        {
+          "sheet": 2,
+          "id": "2020-w-s-l-5-2",
+          "teams": {
+            "top": { "id": "2020-w-s-l-2", "name": "Girl Scout Troop 15" },
+            "bottom": { "id": "2020-w-s-l-6", "name": "Salt, Fat, Acid, Sheet" }
+          },
+          "ends": [
+            { "isBlank": false, "scoringTeam": "bottom", "score": 3 },
+            { "isBlank": false, "scoringTeam": "bottom", "score": 1 },
+            { "isBlank": false, "scoringTeam": "top", "score": 1 },
+            { "isBlank": false, "scoringTeam": "top", "score": 3 },
+            { "isBlank": false, "scoringTeam": "top", "score": 2 },
+            { "isBlank": false, "scoringTeam": "bottom", "score": 3 }
+          ]
+        },
+        {
+          "sheet": 3,
+          "id": "2020-w-s-l-5-3",
+          "teams": {
+            "top": { "id": "2020-w-s-l-1", "name": "Deviled Eggs" },
+            "bottom": { "id": "2020-w-s-l-4", "name": "No Sweep Till Brooklyn" }
+          },
+          "ends": [
+            { "isBlank": false, "scoringTeam": "top", "score": 1 },
+            { "isBlank": false, "scoringTeam": "top", "score": 1 },
+            { "isBlank": false, "scoringTeam": "top", "score": 3 },
+            { "isBlank": false, "scoringTeam": "bottom", "score": 1 },
+            { "isBlank": false, "scoringTeam": "top", "score": 1 },
+            { "isBlank": false, "scoringTeam": "bottom", "score": 2 }
+          ]
+        },
+        {
+          "sheet": 4,
+          "id": "2020-w-s-l-5-4",
+          "teams": {
+            "top": { "id": "2020-w-s-l-3", "name": "House Rockers" },
+            "bottom": { "id": "2020-w-s-l-5", "name": "Ice Ice Baby" }
+          },
+          "ends": [
+            { "isBlank": false, "scoringTeam": "top", "score": 2 },
+            { "isBlank": false, "scoringTeam": "top", "score": 1 },
+            { "isBlank": false, "scoringTeam": "top", "score": 1 },
+            { "isBlank": false, "scoringTeam": "top", "score": 1 },
+            { "isBlank": false, "scoringTeam": "top", "score": 0 },
+            { "isBlank": false, "scoringTeam": "bottom", "score": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "games": [
+        {
+          "sheet": 2,
+          "id": "2020-w-s-l-6-2",
+          "teams": {
+            "top": { "id": "2020-w-s-l-1", "name": "Deviled Eggs" },
+            "bottom": { "id": "2020-w-s-l-5", "name": "Ice Ice Baby" }
+          },
+          "ends": [
+            { "isBlank": false, "scoringTeam": "bottom", "score": 1 },
+            { "isBlank": false, "scoringTeam": "bottom", "score": 1 },
+            { "isBlank": false, "scoringTeam": "top", "score": 3 },
+            { "isBlank": false, "scoringTeam": "bottom", "score": 1 },
+            { "isBlank": false, "scoringTeam": "top", "score": 1 }
+          ]
+        },
+        {
+          "sheet": 3,
+          "id": "2020-w-s-l-6-3",
+          "teams": {
+            "top": { "id": "2020-w-s-l-6", "name": "Salt, Fat, Acid, Sheet" },
+            "bottom": { "id": "2020-w-s-l-3", "name": "House Rockers" }
+          },
+          "ends": [
+            { "isBlank": false, "scoringTeam": "bottom", "score": 5 },
+            { "isBlank": false, "scoringTeam": "bottom", "score": 2 },
+            { "isBlank": false, "scoringTeam": "bottom", "score": 2 },
+            { "isBlank": false, "scoringTeam": "bottom", "score": 1 },
+            { "isBlank": false, "scoringTeam": "bottom", "score": 1 },
+            { "isBlank": false, "scoringTeam": "bottom", "score": 1 }
+          ]
+        },
+        {
+          "sheet": 4,
+          "id": "2020-w-s-l-6-4",
+          "teams": {
+            "top": { "id": "2020-w-s-l-2", "name": "Girl Scout Troop 15" },
+            "bottom": { "id": "2020-w-s-l-4", "name": "No Sweep Till Brooklyn" }
+          },
+          "ends": [
+            { "isBlank": false, "scoringTeam": "bottom", "score": 4 },
+            { "isBlank": false, "scoringTeam": "top", "score": 1 },
+            { "isBlank": false, "scoringTeam": "bottom", "score": 2 },
+            { "isBlank": false, "scoringTeam": "bottom", "score": 1 },
+            { "isBlank": false, "scoringTeam": "top", "score": 2 },
+            { "isBlank": false, "scoringTeam": "top", "score": 2 }
+          ]
+        }
+      ]
+    }
+  ]
+}
