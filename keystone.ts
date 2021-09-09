@@ -12,6 +12,7 @@ import { League } from './schemas/League';
 import { Team } from './schemas/Team';
 import { User } from './schemas/User';
 import { Week } from './schemas/Week';
+import { extendGraphqlSchema } from './mutations/index';
 import { insertSeedEnds } from './seed-data/seedEnds';
 import { insertSeedLeagues } from './seed-data/seedLeagues';
 import { insertSeedTeams } from './seed-data/seedTeams';
@@ -77,6 +78,7 @@ export default withAuth(
       GameImage,
       Week,
     }),
+    extendGraphqlSchema,
     ui: {
       // Show the UI only for ppl who pass this test
       isAccessAllowed: ({ session }) =>

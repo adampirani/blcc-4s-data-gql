@@ -2,6 +2,8 @@
  * Iterate over leagues, games, ends to make sure content & order matches
  *
  * Issues found: commas in team names broke csv export / import process
+ *
+ * TODO: Use proper typescript version of jest
  */
 
 const fs = require('fs');

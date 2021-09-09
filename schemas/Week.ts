@@ -5,7 +5,7 @@ export const Week = list({
   fields: {
     label: virtual({
       graphQLReturnType: 'String',
-      resolver(week) {
+      resolver(week: { number: number }) {
         return `${week.number}`;
       },
     }),
