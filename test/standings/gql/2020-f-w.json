@@ -1,0 +1,243 @@
+{
+  "data": {
+    "getStandings": {
+      "teams": [
+        {
+          "id": "612d3746a8241819554006b8",
+          "name": "Fancy Pants",
+          "gamesPlayed": 6,
+          "wins": 5,
+          "losses": 0,
+          "draws": 1,
+          "points": 11,
+          "totalScored": 44,
+          "endsWon": 24,
+          "highEnd": 4,
+          "recordVsOtherTeams": {
+            "612d3745a8241819554006ac": {
+              "wins": 2,
+              "losses": 0,
+              "draws": 0
+            },
+            "612d3746a8241819554006b5": {
+              "wins": 0,
+              "losses": 0,
+              "draws": 1
+            },
+            "612d3745a8241819554006b2": {
+              "wins": 1,
+              "losses": 0,
+              "draws": 0
+            },
+            "612d3745a8241819554006a9": {
+              "wins": 1,
+              "losses": 0,
+              "draws": 0
+            },
+            "612d3745a8241819554006af": {
+              "wins": 1,
+              "losses": 0,
+              "draws": 0
+            }
+          }
+        },
+        {
+          "id": "612d3745a8241819554006af",
+          "name": "Riot Curl",
+          "gamesPlayed": 6,
+          "wins": 5,
+          "losses": 1,
+          "draws": 0,
+          "points": 10,
+          "totalScored": 32,
+          "endsWon": 19,
+          "highEnd": 4,
+          "recordVsOtherTeams": {
+            "612d3746a8241819554006b5": {
+              "wins": 2,
+              "losses": 0,
+              "draws": 0
+            },
+            "612d3745a8241819554006b2": {
+              "wins": 1,
+              "losses": 0,
+              "draws": 0
+            },
+            "612d3745a8241819554006a9": {
+              "wins": 1,
+              "losses": 0,
+              "draws": 0
+            },
+            "612d3745a8241819554006ac": {
+              "wins": 1,
+              "losses": 0,
+              "draws": 0
+            },
+            "612d3746a8241819554006b8": {
+              "wins": 0,
+              "losses": 1,
+              "draws": 0
+            }
+          }
+        },
+        {
+          "id": "612d3745a8241819554006b2",
+          "name": "Curlvid-19",
+          "gamesPlayed": 6,
+          "wins": 4,
+          "losses": 2,
+          "draws": 0,
+          "points": 8,
+          "totalScored": 41,
+          "endsWon": 23,
+          "highEnd": 4,
+          "recordVsOtherTeams": {
+            "612d3745a8241819554006a9": {
+              "wins": 2,
+              "losses": 0,
+              "draws": 0
+            },
+            "612d3745a8241819554006af": {
+              "wins": 0,
+              "losses": 1,
+              "draws": 0
+            },
+            "612d3746a8241819554006b8": {
+              "wins": 0,
+              "losses": 1,
+              "draws": 0
+            },
+            "612d3746a8241819554006b5": {
+              "wins": 1,
+              "losses": 0,
+              "draws": 0
+            },
+            "612d3745a8241819554006ac": {
+              "wins": 1,
+              "losses": 0,
+              "draws": 0
+            }
+          }
+        },
+        {
+          "id": "612d3745a8241819554006a9",
+          "name": "Sweeping Beauties",
+          "gamesPlayed": 6,
+          "wins": 2,
+          "losses": 4,
+          "draws": 0,
+          "points": 4,
+          "totalScored": 23,
+          "endsWon": 17,
+          "highEnd": 2,
+          "recordVsOtherTeams": {
+            "612d3745a8241819554006b2": {
+              "wins": 0,
+              "losses": 2,
+              "draws": 0
+            },
+            "612d3745a8241819554006ac": {
+              "wins": 1,
+              "losses": 0,
+              "draws": 0
+            },
+            "612d3745a8241819554006af": {
+              "wins": 0,
+              "losses": 1,
+              "draws": 0
+            },
+            "612d3746a8241819554006b8": {
+              "wins": 0,
+              "losses": 1,
+              "draws": 0
+            },
+            "612d3746a8241819554006b5": {
+              "wins": 1,
+              "losses": 0,
+              "draws": 0
+            }
+          }
+        },
+        {
+          "id": "612d3746a8241819554006b5",
+          "name": "Romancing the Stone",
+          "gamesPlayed": 6,
+          "wins": 1,
+          "losses": 4,
+          "draws": 1,
+          "points": 3,
+          "totalScored": 20,
+          "endsWon": 12,
+          "highEnd": 4,
+          "recordVsOtherTeams": {
+            "612d3745a8241819554006af": {
+              "wins": 0,
+              "losses": 2,
+              "draws": 0
+            },
+            "612d3746a8241819554006b8": {
+              "wins": 0,
+              "losses": 0,
+              "draws": 1
+            },
+            "612d3745a8241819554006ac": {
+              "wins": 1,
+              "losses": 0,
+              "draws": 0
+            },
+            "612d3745a8241819554006b2": {
+              "wins": 0,
+              "losses": 1,
+              "draws": 0
+            },
+            "612d3745a8241819554006a9": {
+              "wins": 0,
+              "losses": 1,
+              "draws": 0
+            }
+          }
+        },
+        {
+          "id": "612d3745a8241819554006ac",
+          "name": "Sweep Apnea",
+          "gamesPlayed": 6,
+          "wins": 0,
+          "losses": 6,
+          "draws": 0,
+          "points": 0,
+          "totalScored": 9,
+          "endsWon": 6,
+          "highEnd": 3,
+          "recordVsOtherTeams": {
+            "612d3746a8241819554006b8": {
+              "wins": 0,
+              "losses": 2,
+              "draws": 0
+            },
+            "612d3745a8241819554006a9": {
+              "wins": 0,
+              "losses": 1,
+              "draws": 0
+            },
+            "612d3746a8241819554006b5": {
+              "wins": 0,
+              "losses": 1,
+              "draws": 0
+            },
+            "612d3745a8241819554006af": {
+              "wins": 0,
+              "losses": 1,
+              "draws": 0
+            },
+            "612d3745a8241819554006b2": {
+              "wins": 0,
+              "losses": 1,
+              "draws": 0
+            }
+          }
+        }
+      ],
+      "divisions": {}
+    }
+  }
+}

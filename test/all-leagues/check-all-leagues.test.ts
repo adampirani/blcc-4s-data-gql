@@ -3,17 +3,40 @@
  *
  * Issues found: commas in team names broke csv export / import process
  *
- * TODO: Use proper typescript version of jest
  */
 
-const fs = require('fs');
-const gqlData = require('./gql/all.json');
+import fs from 'fs';
+import * as gqlData from './gql/all.json';
 
-test('Check league data', () => {
-  gqlData.data.allLeagues.forEach((league) => {
+import * as data2019_f_s_e from './rest/2019-f-s-e.json';
+import * as data2019_f_s_l from './rest/2019-f-s-l.json';
+import * as data2019_f_w from './rest/2019-f-w.json';
+import * as data2020_f_s from './rest/2020-f-s.json';
+import * as data2020_f_w from './rest/2020-f-w.json';
+import * as data2020_w_s_e from './rest/2020-w-s-e.json';
+import * as data2020_w_s_l from './rest/2020-w-s-l.json';
+import * as data2020_w_w from './rest/2020-w-w.json';
+import * as data2021_w_s from './rest/2021-w-s.json';
+import * as data2021_w_w from './rest/2021-w-w.json';
+
+const restData = {
+  '2019-f-s-e': data2019_f_s_e,
+  '2019-f-s-l': data2019_f_s_l,
+  '2019-f-w': data2019_f_w,
+  '2020-f-s': data2020_f_s,
+  '2020-f-w': data2020_f_w,
+  '2020-w-s-e': data2020_w_s_e,
+  '2020-w-s-l': data2020_w_s_l,
+  '2020-w-w': data2020_w_w,
+  '2021-w-s': data2021_w_s,
+  '2021-w-w': data2021_w_w,
+};
+
+test('Check league data', async () => {
+  for (const league of gqlData.data.allLeagues) {
     const { name, slug, weeks } = league;
 
-    const restLeagueData = require(`./rest/${slug}.json`);
+    const restLeagueData = restData[slug];
 
     const { league: restLeague, weeks: restWeeks } = restLeagueData;
     const { name: restName, id: restSlug } = restLeague;
@@ -65,5 +88,5 @@ test('Check league data', () => {
         });
       });
     });
-  });
+  }
 });

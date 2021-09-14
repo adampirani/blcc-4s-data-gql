@@ -1,0 +1,361 @@
+{
+  "data": {
+    "getStandings": {
+      "teams": [
+        {
+          "id": "612d3745a824181955400694",
+          "name": "Serial Sweepers",
+          "gamesPlayed": 6,
+          "wins": 3,
+          "losses": 1,
+          "draws": 2,
+          "points": 8,
+          "totalScored": 30,
+          "endsWon": 17,
+          "highEnd": 4,
+          "recordVsOtherTeams": {
+            "612d3745a824181955400691": {
+              "wins": 0,
+              "losses": 0,
+              "draws": 1
+            },
+            "612d3745a8241819554006a6": {
+              "wins": 1,
+              "losses": 0,
+              "draws": 0
+            },
+            "612d3745a8241819554006a3": {
+              "wins": 0,
+              "losses": 1,
+              "draws": 0
+            },
+            "612d3745a824181955400697": {
+              "wins": 1,
+              "losses": 0,
+              "draws": 0
+            },
+            "612d3745a82418195540069d": {
+              "wins": 0,
+              "losses": 0,
+              "draws": 1
+            },
+            "612d3745a8241819554006a0": {
+              "wins": 1,
+              "losses": 0,
+              "draws": 0
+            }
+          }
+        },
+        {
+          "id": "612d3745a824181955400697",
+          "name": "Swept Away",
+          "gamesPlayed": 6,
+          "wins": 4,
+          "losses": 2,
+          "draws": 0,
+          "points": 8,
+          "totalScored": 27,
+          "endsWon": 20,
+          "highEnd": 3,
+          "recordVsOtherTeams": {
+            "612d3745a82418195540069a": {
+              "wins": 1,
+              "losses": 0,
+              "draws": 0
+            },
+            "612d3745a8241819554006a0": {
+              "wins": 1,
+              "losses": 0,
+              "draws": 0
+            },
+            "612d3745a8241819554006a6": {
+              "wins": 0,
+              "losses": 1,
+              "draws": 0
+            },
+            "612d3745a824181955400694": {
+              "wins": 0,
+              "losses": 1,
+              "draws": 0
+            },
+            "612d3745a8241819554006a3": {
+              "wins": 1,
+              "losses": 0,
+              "draws": 0
+            },
+            "612d3745a824181955400691": {
+              "wins": 1,
+              "losses": 0,
+              "draws": 0
+            }
+          }
+        },
+        {
+          "id": "612d3745a8241819554006a6",
+          "name": "Team 8",
+          "gamesPlayed": 6,
+          "wins": 4,
+          "losses": 2,
+          "draws": 0,
+          "points": 8,
+          "totalScored": 26,
+          "endsWon": 19,
+          "highEnd": 3,
+          "recordVsOtherTeams": {
+            "612d3745a8241819554006a3": {
+              "wins": 0,
+              "losses": 1,
+              "draws": 0
+            },
+            "612d3745a824181955400694": {
+              "wins": 0,
+              "losses": 1,
+              "draws": 0
+            },
+            "612d3745a824181955400697": {
+              "wins": 1,
+              "losses": 0,
+              "draws": 0
+            },
+            "612d3745a82418195540069d": {
+              "wins": 1,
+              "losses": 0,
+              "draws": 0
+            },
+            "612d3745a8241819554006a0": {
+              "wins": 1,
+              "losses": 0,
+              "draws": 0
+            },
+            "612d3745a82418195540069a": {
+              "wins": 1,
+              "losses": 0,
+              "draws": 0
+            }
+          }
+        },
+        {
+          "id": "612d3745a82418195540069a",
+          "name": "Team Stone Cold",
+          "gamesPlayed": 6,
+          "wins": 3,
+          "losses": 3,
+          "draws": 0,
+          "points": 6,
+          "totalScored": 38,
+          "endsWon": 17,
+          "highEnd": 4,
+          "recordVsOtherTeams": {
+            "612d3745a824181955400697": {
+              "wins": 0,
+              "losses": 1,
+              "draws": 0
+            },
+            "612d3745a82418195540069d": {
+              "wins": 1,
+              "losses": 0,
+              "draws": 0
+            },
+            "612d3745a8241819554006a0": {
+              "wins": 1,
+              "losses": 0,
+              "draws": 0
+            },
+            "612d3745a8241819554006a3": {
+              "wins": 1,
+              "losses": 0,
+              "draws": 0
+            },
+            "612d3745a824181955400691": {
+              "wins": 0,
+              "losses": 1,
+              "draws": 0
+            },
+            "612d3745a8241819554006a6": {
+              "wins": 0,
+              "losses": 1,
+              "draws": 0
+            }
+          }
+        },
+        {
+          "id": "612d3745a824181955400691",
+          "name": "Wham!",
+          "gamesPlayed": 6,
+          "wins": 2,
+          "losses": 2,
+          "draws": 2,
+          "points": 6,
+          "totalScored": 27,
+          "endsWon": 16,
+          "highEnd": 4,
+          "recordVsOtherTeams": {
+            "612d3745a824181955400694": {
+              "wins": 0,
+              "losses": 0,
+              "draws": 1
+            },
+            "612d3745a8241819554006a3": {
+              "wins": 1,
+              "losses": 0,
+              "draws": 0
+            },
+            "612d3745a82418195540069d": {
+              "wins": 0,
+              "losses": 1,
+              "draws": 0
+            },
+            "612d3745a8241819554006a0": {
+              "wins": 0,
+              "losses": 0,
+              "draws": 1
+            },
+            "612d3745a82418195540069a": {
+              "wins": 1,
+              "losses": 0,
+              "draws": 0
+            },
+            "612d3745a824181955400697": {
+              "wins": 0,
+              "losses": 1,
+              "draws": 0
+            }
+          }
+        },
+        {
+          "id": "612d3745a8241819554006a3",
+          "name": "Curl Jam",
+          "gamesPlayed": 6,
+          "wins": 3,
+          "losses": 3,
+          "draws": 0,
+          "points": 6,
+          "totalScored": 22,
+          "endsWon": 15,
+          "highEnd": 3,
+          "recordVsOtherTeams": {
+            "612d3745a8241819554006a6": {
+              "wins": 1,
+              "losses": 0,
+              "draws": 0
+            },
+            "612d3745a824181955400691": {
+              "wins": 0,
+              "losses": 1,
+              "draws": 0
+            },
+            "612d3745a824181955400694": {
+              "wins": 1,
+              "losses": 0,
+              "draws": 0
+            },
+            "612d3745a82418195540069a": {
+              "wins": 0,
+              "losses": 1,
+              "draws": 0
+            },
+            "612d3745a824181955400697": {
+              "wins": 0,
+              "losses": 1,
+              "draws": 0
+            },
+            "612d3745a82418195540069d": {
+              "wins": 1,
+              "losses": 0,
+              "draws": 0
+            }
+          }
+        },
+        {
+          "id": "612d3745a82418195540069d",
+          "name": "Sweep the Leg",
+          "gamesPlayed": 6,
+          "wins": 2,
+          "losses": 3,
+          "draws": 1,
+          "points": 5,
+          "totalScored": 17,
+          "endsWon": 13,
+          "highEnd": 4,
+          "recordVsOtherTeams": {
+            "612d3745a8241819554006a0": {
+              "wins": 1,
+              "losses": 0,
+              "draws": 0
+            },
+            "612d3745a82418195540069a": {
+              "wins": 0,
+              "losses": 1,
+              "draws": 0
+            },
+            "612d3745a824181955400691": {
+              "wins": 1,
+              "losses": 0,
+              "draws": 0
+            },
+            "612d3745a8241819554006a6": {
+              "wins": 0,
+              "losses": 1,
+              "draws": 0
+            },
+            "612d3745a824181955400694": {
+              "wins": 0,
+              "losses": 0,
+              "draws": 1
+            },
+            "612d3745a8241819554006a3": {
+              "wins": 0,
+              "losses": 1,
+              "draws": 0
+            }
+          }
+        },
+        {
+          "id": "612d3745a8241819554006a0",
+          "name": "Glass Houses",
+          "gamesPlayed": 6,
+          "wins": 0,
+          "losses": 5,
+          "draws": 1,
+          "points": 1,
+          "totalScored": 6,
+          "endsWon": 6,
+          "highEnd": 1,
+          "recordVsOtherTeams": {
+            "612d3745a82418195540069d": {
+              "wins": 0,
+              "losses": 1,
+              "draws": 0
+            },
+            "612d3745a824181955400697": {
+              "wins": 0,
+              "losses": 1,
+              "draws": 0
+            },
+            "612d3745a82418195540069a": {
+              "wins": 0,
+              "losses": 1,
+              "draws": 0
+            },
+            "612d3745a824181955400691": {
+              "wins": 0,
+              "losses": 0,
+              "draws": 1
+            },
+            "612d3745a8241819554006a6": {
+              "wins": 0,
+              "losses": 1,
+              "draws": 0
+            },
+            "612d3745a824181955400694": {
+              "wins": 0,
+              "losses": 1,
+              "draws": 0
+            }
+          }
+        }
+      ],
+      "divisions": {}
+    }
+  }
+}

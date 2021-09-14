@@ -1,0 +1,223 @@
+{
+  "data": {
+    "getStandings": {
+      "teams": [
+        {
+          "id": "612d3744a82418195540066a",
+          "name": "No Sweep Till Brooklyn",
+          "gamesPlayed": 6,
+          "wins": 6,
+          "losses": 0,
+          "draws": 0,
+          "points": 12,
+          "totalScored": 47,
+          "endsWon": 22,
+          "highEnd": 4,
+          "recordVsOtherTeams": {
+            "612d3744a824181955400670": {
+              "wins": 2,
+              "losses": 0,
+              "draws": 0
+            },
+            "612d3744a824181955400667": {
+              "wins": 1,
+              "losses": 0,
+              "draws": 0
+            },
+            "612d3744a82418195540066d": {
+              "wins": 1,
+              "losses": 0,
+              "draws": 0
+            },
+            "612d3744a824181955400673": {
+              "wins": 1,
+              "losses": 0,
+              "draws": 0
+            },
+            "612d3744a824181955400676": {
+              "wins": 1,
+              "losses": 0,
+              "draws": 0
+            }
+          }
+        },
+        {
+          "id": "612d3744a824181955400673",
+          "name": "House Rockers",
+          "gamesPlayed": 6,
+          "wins": 4,
+          "losses": 1,
+          "draws": 1,
+          "points": 9,
+          "totalScored": 33,
+          "endsWon": 19,
+          "highEnd": 4,
+          "recordVsOtherTeams": {
+            "612d3744a824181955400667": {
+              "wins": 1,
+              "losses": 0,
+              "draws": 1
+            },
+            "612d3744a82418195540066d": {
+              "wins": 2,
+              "losses": 0,
+              "draws": 0
+            },
+            "612d3744a824181955400670": {
+              "wins": 1,
+              "losses": 0,
+              "draws": 0
+            },
+            "612d3744a82418195540066a": {
+              "wins": 0,
+              "losses": 1,
+              "draws": 0
+            }
+          }
+        },
+        {
+          "id": "612d3744a824181955400667",
+          "name": "Girl Scout Troop #15",
+          "gamesPlayed": 6,
+          "wins": 2,
+          "losses": 3,
+          "draws": 1,
+          "points": 5,
+          "totalScored": 20,
+          "endsWon": 15,
+          "highEnd": 2,
+          "recordVsOtherTeams": {
+            "612d3744a824181955400673": {
+              "wins": 0,
+              "losses": 1,
+              "draws": 1
+            },
+            "612d3744a82418195540066a": {
+              "wins": 0,
+              "losses": 1,
+              "draws": 0
+            },
+            "612d3744a824181955400676": {
+              "wins": 1,
+              "losses": 1,
+              "draws": 0
+            },
+            "612d3744a824181955400670": {
+              "wins": 1,
+              "losses": 0,
+              "draws": 0
+            }
+          }
+        },
+        {
+          "id": "612d3744a824181955400670",
+          "name": "Same Shot, But Harder",
+          "gamesPlayed": 6,
+          "wins": 2,
+          "losses": 4,
+          "draws": 0,
+          "points": 4,
+          "totalScored": 25,
+          "endsWon": 15,
+          "highEnd": 3,
+          "recordVsOtherTeams": {
+            "612d3744a82418195540066a": {
+              "wins": 0,
+              "losses": 2,
+              "draws": 0
+            },
+            "612d3744a824181955400676": {
+              "wins": 1,
+              "losses": 0,
+              "draws": 0
+            },
+            "612d3744a824181955400673": {
+              "wins": 0,
+              "losses": 1,
+              "draws": 0
+            },
+            "612d3744a82418195540066d": {
+              "wins": 1,
+              "losses": 0,
+              "draws": 0
+            },
+            "612d3744a824181955400667": {
+              "wins": 0,
+              "losses": 1,
+              "draws": 0
+            }
+          }
+        },
+        {
+          "id": "612d3744a82418195540066d",
+          "name": "OK, Broomer",
+          "gamesPlayed": 6,
+          "wins": 2,
+          "losses": 4,
+          "draws": 0,
+          "points": 4,
+          "totalScored": 18,
+          "endsWon": 14,
+          "highEnd": 3,
+          "recordVsOtherTeams": {
+            "612d3744a824181955400676": {
+              "wins": 2,
+              "losses": 0,
+              "draws": 0
+            },
+            "612d3744a824181955400673": {
+              "wins": 0,
+              "losses": 2,
+              "draws": 0
+            },
+            "612d3744a82418195540066a": {
+              "wins": 0,
+              "losses": 1,
+              "draws": 0
+            },
+            "612d3744a824181955400670": {
+              "wins": 0,
+              "losses": 1,
+              "draws": 0
+            }
+          }
+        },
+        {
+          "id": "612d3744a824181955400676",
+          "name": "WO-NYC",
+          "gamesPlayed": 6,
+          "wins": 1,
+          "losses": 5,
+          "draws": 0,
+          "points": 2,
+          "totalScored": 9,
+          "endsWon": 8,
+          "highEnd": 2,
+          "recordVsOtherTeams": {
+            "612d3744a82418195540066d": {
+              "wins": 0,
+              "losses": 2,
+              "draws": 0
+            },
+            "612d3744a824181955400670": {
+              "wins": 0,
+              "losses": 1,
+              "draws": 0
+            },
+            "612d3744a824181955400667": {
+              "wins": 1,
+              "losses": 1,
+              "draws": 0
+            },
+            "612d3744a82418195540066a": {
+              "wins": 0,
+              "losses": 1,
+              "draws": 0
+            }
+          }
+        }
+      ],
+      "divisions": {}
+    }
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "league": {
+    "id": "2021-w-w",
+    "name": "2021 Winter Wednesday",
+    "currentWeek": 7,
+    "numRegSeasonWeeks": 6,
+    "hasDivisions": false
+  },
+  "teams": [
+    {
+      "id": "2021-w-w-7",
+      "name": "Fancy Pants",
+      "gamesPlayed": 6,
+      "wins": 5,
+      "losses": 1,
+      "draws": 0,
+      "points": 10,
+      "totalScored": 39,
+      "endsWon": 23,
+      "highEnd": 4,
+      "recordVsOtherTeams": {
+        "2021-w-w-8": { "wins": 1, "losses": 0, "draws": 0 },
+        "2021-w-w-3": { "wins": 0, "losses": 1, "draws": 0 },
+        "2021-w-w-6": { "wins": 1, "losses": 0, "draws": 0 },
+        "2021-w-w-4": { "wins": 1, "losses": 0, "draws": 0 },
+        "2021-w-w-1": { "wins": 1, "losses": 0, "draws": 0 },
+        "2021-w-w-2": { "wins": 1, "losses": 0, "draws": 0 }
+      }
+    },
+    {
+      "id": "2021-w-w-4",
+      "name": "Romancing the Stone",
+      "gamesPlayed": 6,
+      "wins": 5,
+      "losses": 1,
+      "draws": 0,
+      "points": 10,
+      "totalScored": 30,
+      "endsWon": 22,
+      "highEnd": 3,
+      "recordVsOtherTeams": {
+        "2021-w-w-5": { "wins": 1, "losses": 0, "draws": 0 },
+        "2021-w-w-1": { "wins": 1, "losses": 0, "draws": 0 },
+        "2021-w-w-2": { "wins": 1, "losses": 0, "draws": 0 },
+        "2021-w-w-7": { "wins": 0, "losses": 1, "draws": 0 },
+        "2021-w-w-8": { "wins": 1, "losses": 0, "draws": 0 },
+        "2021-w-w-3": { "wins": 1, "losses": 0, "draws": 0 }
+      }
+    },
+    {
+      "id": "2021-w-w-6",
+      "name": "Riot Currrl",
+      "gamesPlayed": 6,
+      "wins": 4,
+      "losses": 1,
+      "draws": 1,
+      "points": 9,
+      "totalScored": 31,
+      "endsWon": 22,
+      "highEnd": 4,
+      "recordVsOtherTeams": {
+        "2021-w-w-1": { "wins": 0, "losses": 0, "draws": 1 },
+        "2021-w-w-2": { "wins": 1, "losses": 0, "draws": 0 },
+        "2021-w-w-7": { "wins": 0, "losses": 1, "draws": 0 },
+        "2021-w-w-8": { "wins": 1, "losses": 0, "draws": 0 },
+        "2021-w-w-3": { "wins": 1, "losses": 0, "draws": 0 },
+        "2021-w-w-5": { "wins": 1, "losses": 0, "draws": 0 }
+      }
+    },
+    {
+      "id": "2021-w-w-3",
+      "name": "Curlvid-19",
+      "gamesPlayed": 6,
+      "wins": 4,
+      "losses": 2,
+      "draws": 0,
+      "points": 8,
+      "totalScored": 37,
+      "endsWon": 21,
+      "highEnd": 3,
+      "recordVsOtherTeams": {
+        "2021-w-w-2": { "wins": 1, "losses": 0, "draws": 0 },
+        "2021-w-w-7": { "wins": 1, "losses": 0, "draws": 0 },
+        "2021-w-w-8": { "wins": 1, "losses": 0, "draws": 0 },
+        "2021-w-w-5": { "wins": 1, "losses": 0, "draws": 0 },
+        "2021-w-w-6": { "wins": 0, "losses": 1, "draws": 0 },
+        "2021-w-w-4": { "wins": 0, "losses": 1, "draws": 0 }
+      }
+    },
+    {
+      "id": "2021-w-w-1",
+      "name": "Wild Hogs",
+      "gamesPlayed": 6,
+      "wins": 3,
+      "losses": 2,
+      "draws": 1,
+      "points": 7,
+      "totalScored": 24,
+      "endsWon": 17,
+      "highEnd": 2,
+      "recordVsOtherTeams": {
+        "2021-w-w-6": { "wins": 0, "losses": 0, "draws": 1 },
+        "2021-w-w-4": { "wins": 0, "losses": 1, "draws": 0 },
+        "2021-w-w-5": { "wins": 1, "losses": 0, "draws": 0 },
+        "2021-w-w-2": { "wins": 1, "losses": 0, "draws": 0 },
+        "2021-w-w-7": { "wins": 0, "losses": 1, "draws": 0 },
+        "2021-w-w-8": { "wins": 1, "losses": 0, "draws": 0 }
+      }
+    },
+    {
+      "id": "2021-w-w-8",
+      "name": "Good Curls Gone Bad",
+      "gamesPlayed": 6,
+      "wins": 1,
+      "losses": 5,
+      "draws": 0,
+      "points": 2,
+      "totalScored": 13,
+      "endsWon": 7,
+      "highEnd": 4,
+      "recordVsOtherTeams": {
+        "2021-w-w-7": { "wins": 0, "losses": 1, "draws": 0 },
+        "2021-w-w-5": { "wins": 1, "losses": 0, "draws": 0 },
+        "2021-w-w-3": { "wins": 0, "losses": 1, "draws": 0 },
+        "2021-w-w-6": { "wins": 0, "losses": 1, "draws": 0 },
+        "2021-w-w-4": { "wins": 0, "losses": 1, "draws": 0 },
+        "2021-w-w-1": { "wins": 0, "losses": 1, "draws": 0 }
+      }
+    },
+    {
+      "id": "2021-w-w-5",
+      "name": "Sweeping Beauties",
+      "gamesPlayed": 6,
+      "wins": 1,
+      "losses": 5,
+      "draws": 0,
+      "points": 2,
+      "totalScored": 12,
+      "endsWon": 10,
+      "highEnd": 2,
+      "recordVsOtherTeams": {
+        "2021-w-w-4": { "wins": 0, "losses": 1, "draws": 0 },
+        "2021-w-w-8": { "wins": 0, "losses": 1, "draws": 0 },
+        "2021-w-w-1": { "wins": 0, "losses": 1, "draws": 0 },
+        "2021-w-w-3": { "wins": 0, "losses": 1, "draws": 0 },
+        "2021-w-w-2": { "wins": 1, "losses": 0, "draws": 0 },
+        "2021-w-w-6": { "wins": 0, "losses": 1, "draws": 0 }
+      }
+    },
+    {
+      "id": "2021-w-w-2",
+      "name": "Sweep Apnea",
+      "gamesPlayed": 6,
+      "wins": 0,
+      "losses": 6,
+      "draws": 0,
+      "points": 0,
+      "totalScored": 12,
+      "endsWon": 9,
+      "highEnd": 3,
+      "recordVsOtherTeams": {
+        "2021-w-w-3": { "wins": 0, "losses": 1, "draws": 0 },
+        "2021-w-w-6": { "wins": 0, "losses": 1, "draws": 0 },
+        "2021-w-w-4": { "wins": 0, "losses": 1, "draws": 0 },
+        "2021-w-w-1": { "wins": 0, "losses": 1, "draws": 0 },
+        "2021-w-w-5": { "wins": 0, "losses": 1, "draws": 0 },
+        "2021-w-w-7": { "wins": 0, "losses": 1, "draws": 0 }
+      }
+    }
+  ],
+  "divisions": {}
+}

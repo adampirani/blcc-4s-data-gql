@@ -1,0 +1,223 @@
+{
+  "data": {
+    "getStandings": {
+      "teams": [
+        {
+          "id": "612d3746a8241819554006d3",
+          "name": "Deviled Eggs",
+          "gamesPlayed": 6,
+          "wins": 5,
+          "losses": 1,
+          "draws": 0,
+          "points": 10,
+          "totalScored": 29,
+          "endsWon": 18,
+          "highEnd": 3,
+          "recordVsOtherTeams": {
+            "612d3746a8241819554006df": {
+              "wins": 2,
+              "losses": 0,
+              "draws": 0
+            },
+            "612d3746a8241819554006d6": {
+              "wins": 1,
+              "losses": 0,
+              "draws": 0
+            },
+            "612d3747a8241819554006e2": {
+              "wins": 1,
+              "losses": 1,
+              "draws": 0
+            },
+            "612d3746a8241819554006dc": {
+              "wins": 1,
+              "losses": 0,
+              "draws": 0
+            }
+          }
+        },
+        {
+          "id": "612d3746a8241819554006dc",
+          "name": "No Sweep Till Brooklyn",
+          "gamesPlayed": 6,
+          "wins": 4,
+          "losses": 2,
+          "draws": 0,
+          "points": 8,
+          "totalScored": 46,
+          "endsWon": 20,
+          "highEnd": 4,
+          "recordVsOtherTeams": {
+            "612d3746a8241819554006d6": {
+              "wins": 1,
+              "losses": 1,
+              "draws": 0
+            },
+            "612d3747a8241819554006e2": {
+              "wins": 1,
+              "losses": 0,
+              "draws": 0
+            },
+            "612d3746a8241819554006df": {
+              "wins": 1,
+              "losses": 0,
+              "draws": 0
+            },
+            "612d3746a8241819554006d9": {
+              "wins": 1,
+              "losses": 0,
+              "draws": 0
+            },
+            "612d3746a8241819554006d3": {
+              "wins": 0,
+              "losses": 1,
+              "draws": 0
+            }
+          }
+        },
+        {
+          "id": "612d3746a8241819554006d9",
+          "name": "House Rockers",
+          "gamesPlayed": 6,
+          "wins": 4,
+          "losses": 2,
+          "draws": 0,
+          "points": 8,
+          "totalScored": 36,
+          "endsWon": 24,
+          "highEnd": 5,
+          "recordVsOtherTeams": {
+            "612d3747a8241819554006e2": {
+              "wins": 2,
+              "losses": 0,
+              "draws": 0
+            },
+            "612d3746a8241819554006df": {
+              "wins": 2,
+              "losses": 0,
+              "draws": 0
+            },
+            "612d3746a8241819554006d6": {
+              "wins": 0,
+              "losses": 1,
+              "draws": 0
+            },
+            "612d3746a8241819554006dc": {
+              "wins": 0,
+              "losses": 1,
+              "draws": 0
+            }
+          }
+        },
+        {
+          "id": "612d3746a8241819554006d6",
+          "name": "Girl Scout Troop 15",
+          "gamesPlayed": 6,
+          "wins": 3,
+          "losses": 3,
+          "draws": 0,
+          "points": 6,
+          "totalScored": 36,
+          "endsWon": 21,
+          "highEnd": 4,
+          "recordVsOtherTeams": {
+            "612d3746a8241819554006dc": {
+              "wins": 1,
+              "losses": 1,
+              "draws": 0
+            },
+            "612d3746a8241819554006d3": {
+              "wins": 0,
+              "losses": 1,
+              "draws": 0
+            },
+            "612d3746a8241819554006d9": {
+              "wins": 1,
+              "losses": 0,
+              "draws": 0
+            },
+            "612d3746a8241819554006df": {
+              "wins": 1,
+              "losses": 0,
+              "draws": 0
+            },
+            "612d3747a8241819554006e2": {
+              "wins": 0,
+              "losses": 1,
+              "draws": 0
+            }
+          }
+        },
+        {
+          "id": "612d3747a8241819554006e2",
+          "name": "Salt, Fat, Acid, Sheet",
+          "gamesPlayed": 6,
+          "wins": 2,
+          "losses": 4,
+          "draws": 0,
+          "points": 4,
+          "totalScored": 18,
+          "endsWon": 12,
+          "highEnd": 3,
+          "recordVsOtherTeams": {
+            "612d3746a8241819554006d9": {
+              "wins": 0,
+              "losses": 2,
+              "draws": 0
+            },
+            "612d3746a8241819554006dc": {
+              "wins": 0,
+              "losses": 1,
+              "draws": 0
+            },
+            "612d3746a8241819554006d3": {
+              "wins": 1,
+              "losses": 1,
+              "draws": 0
+            },
+            "612d3746a8241819554006d6": {
+              "wins": 1,
+              "losses": 0,
+              "draws": 0
+            }
+          }
+        },
+        {
+          "id": "612d3746a8241819554006df",
+          "name": "Ice Ice Baby",
+          "gamesPlayed": 6,
+          "wins": 0,
+          "losses": 6,
+          "draws": 0,
+          "points": 0,
+          "totalScored": 10,
+          "endsWon": 8,
+          "highEnd": 2,
+          "recordVsOtherTeams": {
+            "612d3746a8241819554006d3": {
+              "wins": 0,
+              "losses": 2,
+              "draws": 0
+            },
+            "612d3746a8241819554006d9": {
+              "wins": 0,
+              "losses": 2,
+              "draws": 0
+            },
+            "612d3746a8241819554006dc": {
+              "wins": 0,
+              "losses": 1,
+              "draws": 0
+            },
+            "612d3746a8241819554006d6": {
+              "wins": 0,
+              "losses": 1,
+              "draws": 0
+            }
+          }
+        }
+      ],
+      "divisions": {}
+    }
+  }
+}
