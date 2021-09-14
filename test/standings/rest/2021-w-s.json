@@ -1,0 +1,172 @@
+{
+  "league": {
+    "id": "2021-w-s",
+    "name": "2021 Winter Sunday",
+    "currentWeek": 7,
+    "numRegSeasonWeeks": 6,
+    "hasDivisions": false
+  },
+  "teams": [
+    {
+      "id": "2021-w-s-7",
+      "name": "Team Stone Cold",
+      "gamesPlayed": 6,
+      "wins": 4,
+      "losses": 1,
+      "draws": 1,
+      "points": 9,
+      "totalScored": 36,
+      "endsWon": 19,
+      "highEnd": 4,
+      "recordVsOtherTeams": {
+        "2021-w-s-8": { "wins": 1, "losses": 0, "draws": 0 },
+        "2021-w-s-1": { "wins": 0, "losses": 0, "draws": 1 },
+        "2021-w-s-2": { "wins": 0, "losses": 1, "draws": 0 },
+        "2021-w-s-4": { "wins": 1, "losses": 0, "draws": 0 },
+        "2021-w-s-3": { "wins": 1, "losses": 0, "draws": 0 },
+        "2021-w-s-5": { "wins": 1, "losses": 0, "draws": 0 }
+      }
+    },
+    {
+      "id": "2021-w-s-5",
+      "name": "Curl Jam",
+      "gamesPlayed": 6,
+      "wins": 4,
+      "losses": 2,
+      "draws": 0,
+      "points": 8,
+      "totalScored": 30,
+      "endsWon": 22,
+      "highEnd": 3,
+      "recordVsOtherTeams": {
+        "2021-w-s-6": { "wins": 1, "losses": 0, "draws": 0 },
+        "2021-w-s-4": { "wins": 0, "losses": 1, "draws": 0 },
+        "2021-w-s-1": { "wins": 1, "losses": 0, "draws": 0 },
+        "2021-w-s-8": { "wins": 1, "losses": 0, "draws": 0 },
+        "2021-w-s-2": { "wins": 1, "losses": 0, "draws": 0 },
+        "2021-w-s-7": { "wins": 0, "losses": 1, "draws": 0 }
+      }
+    },
+    {
+      "id": "2021-w-s-1",
+      "name": "Sweep the Leg",
+      "gamesPlayed": 6,
+      "wins": 3,
+      "losses": 2,
+      "draws": 1,
+      "points": 7,
+      "totalScored": 26,
+      "endsWon": 16,
+      "highEnd": 3,
+      "recordVsOtherTeams": {
+        "2021-w-s-2": { "wins": 1, "losses": 0, "draws": 0 },
+        "2021-w-s-7": { "wins": 0, "losses": 0, "draws": 1 },
+        "2021-w-s-5": { "wins": 0, "losses": 1, "draws": 0 },
+        "2021-w-s-6": { "wins": 1, "losses": 0, "draws": 0 },
+        "2021-w-s-4": { "wins": 1, "losses": 0, "draws": 0 },
+        "2021-w-s-3": { "wins": 0, "losses": 1, "draws": 0 }
+      }
+    },
+    {
+      "id": "2021-w-s-6",
+      "name": "Deviled Eggs",
+      "gamesPlayed": 6,
+      "wins": 2,
+      "losses": 2,
+      "draws": 2,
+      "points": 6,
+      "totalScored": 37,
+      "endsWon": 17,
+      "highEnd": 4,
+      "recordVsOtherTeams": {
+        "2021-w-s-5": { "wins": 0, "losses": 1, "draws": 0 },
+        "2021-w-s-3": { "wins": 1, "losses": 0, "draws": 0 },
+        "2021-w-s-4": { "wins": 0, "losses": 0, "draws": 1 },
+        "2021-w-s-1": { "wins": 0, "losses": 1, "draws": 0 },
+        "2021-w-s-8": { "wins": 0, "losses": 0, "draws": 1 },
+        "2021-w-s-2": { "wins": 1, "losses": 0, "draws": 0 }
+      }
+    },
+    {
+      "id": "2021-w-s-3",
+      "name": "Serial Sweepers",
+      "gamesPlayed": 6,
+      "wins": 3,
+      "losses": 3,
+      "draws": 0,
+      "points": 6,
+      "totalScored": 30,
+      "endsWon": 19,
+      "highEnd": 3,
+      "recordVsOtherTeams": {
+        "2021-w-s-4": { "wins": 1, "losses": 0, "draws": 0 },
+        "2021-w-s-6": { "wins": 0, "losses": 1, "draws": 0 },
+        "2021-w-s-8": { "wins": 1, "losses": 0, "draws": 0 },
+        "2021-w-s-2": { "wins": 0, "losses": 1, "draws": 0 },
+        "2021-w-s-7": { "wins": 0, "losses": 1, "draws": 0 },
+        "2021-w-s-1": { "wins": 1, "losses": 0, "draws": 0 }
+      }
+    },
+    {
+      "id": "2021-w-s-2",
+      "name": "Wham!",
+      "gamesPlayed": 6,
+      "wins": 3,
+      "losses": 3,
+      "draws": 0,
+      "points": 6,
+      "totalScored": 21,
+      "endsWon": 16,
+      "highEnd": 2,
+      "recordVsOtherTeams": {
+        "2021-w-s-1": { "wins": 0, "losses": 1, "draws": 0 },
+        "2021-w-s-8": { "wins": 1, "losses": 0, "draws": 0 },
+        "2021-w-s-7": { "wins": 1, "losses": 0, "draws": 0 },
+        "2021-w-s-3": { "wins": 1, "losses": 0, "draws": 0 },
+        "2021-w-s-5": { "wins": 0, "losses": 1, "draws": 0 },
+        "2021-w-s-6": { "wins": 0, "losses": 1, "draws": 0 }
+      }
+    },
+    {
+      "id": "2021-w-s-4",
+      "name": "Team 4",
+      "gamesPlayed": 6,
+      "wins": 2,
+      "losses": 3,
+      "draws": 1,
+      "points": 5,
+      "totalScored": 24,
+      "endsWon": 13,
+      "highEnd": 4,
+      "recordVsOtherTeams": {
+        "2021-w-s-3": { "wins": 0, "losses": 1, "draws": 0 },
+        "2021-w-s-5": { "wins": 1, "losses": 0, "draws": 0 },
+        "2021-w-s-6": { "wins": 0, "losses": 0, "draws": 1 },
+        "2021-w-s-7": { "wins": 0, "losses": 1, "draws": 0 },
+        "2021-w-s-1": { "wins": 0, "losses": 1, "draws": 0 },
+        "2021-w-s-8": { "wins": 1, "losses": 0, "draws": 0 }
+      }
+    },
+    {
+      "id": "2021-w-s-8",
+      "name": "Swept Away",
+      "gamesPlayed": 6,
+      "wins": 0,
+      "losses": 5,
+      "draws": 1,
+      "points": 1,
+      "totalScored": 14,
+      "endsWon": 12,
+      "highEnd": 2,
+      "recordVsOtherTeams": {
+        "2021-w-s-7": { "wins": 0, "losses": 1, "draws": 0 },
+        "2021-w-s-2": { "wins": 0, "losses": 1, "draws": 0 },
+        "2021-w-s-3": { "wins": 0, "losses": 1, "draws": 0 },
+        "2021-w-s-5": { "wins": 0, "losses": 1, "draws": 0 },
+        "2021-w-s-6": { "wins": 0, "losses": 0, "draws": 1 },
+        "2021-w-s-4": { "wins": 0, "losses": 1, "draws": 0 }
+      }
+    }
+  ],
+  "divisions": {}
+}

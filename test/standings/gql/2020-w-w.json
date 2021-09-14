@@ -1,0 +1,774 @@
+{
+  "data": {
+    "getStandings": {
+      "teams": [
+        {
+          "id": "612d3747a8241819554006f1",
+          "name": "Broom Service",
+          "gamesPlayed": 5,
+          "wins": 5,
+          "losses": 0,
+          "draws": 0,
+          "points": 10,
+          "totalScored": 35,
+          "endsWon": 18,
+          "highEnd": 5,
+          "recordVsOtherTeams": {
+            "612d3747a8241819554006fd": {
+              "wins": 1,
+              "losses": 0,
+              "draws": 0
+            },
+            "612d3747a8241819554006e8": {
+              "wins": 1,
+              "losses": 0,
+              "draws": 0
+            },
+            "612d3747a8241819554006fa": {
+              "wins": 1,
+              "losses": 0,
+              "draws": 0
+            },
+            "612d3747a8241819554006eb": {
+              "wins": 1,
+              "losses": 0,
+              "draws": 0
+            },
+            "612d3747a8241819554006f4": {
+              "wins": 1,
+              "losses": 0,
+              "draws": 0
+            }
+          }
+        },
+        {
+          "id": "612d3747a8241819554006fa",
+          "name": "Riot Currl",
+          "gamesPlayed": 5,
+          "wins": 4,
+          "losses": 1,
+          "draws": 0,
+          "points": 8,
+          "totalScored": 25,
+          "endsWon": 17,
+          "highEnd": 3,
+          "recordVsOtherTeams": {
+            "612d3747a8241819554006f4": {
+              "wins": 1,
+              "losses": 0,
+              "draws": 0
+            },
+            "612d3747a8241819554006eb": {
+              "wins": 1,
+              "losses": 0,
+              "draws": 0
+            },
+            "612d3747a8241819554006f1": {
+              "wins": 0,
+              "losses": 1,
+              "draws": 0
+            },
+            "612d3747a8241819554006e5": {
+              "wins": 1,
+              "losses": 0,
+              "draws": 0
+            },
+            "612d3747a8241819554006f7": {
+              "wins": 1,
+              "losses": 0,
+              "draws": 0
+            }
+          }
+        },
+        {
+          "id": "612d3747a824181955400700",
+          "name": "Curl Jam",
+          "gamesPlayed": 5,
+          "wins": 3,
+          "losses": 2,
+          "draws": 0,
+          "points": 6,
+          "totalScored": 25,
+          "endsWon": 16,
+          "highEnd": 3,
+          "recordVsOtherTeams": {
+            "612d3747a8241819554006ee": {
+              "wins": 1,
+              "losses": 0,
+              "draws": 0
+            },
+            "612d3747a8241819554006f4": {
+              "wins": 0,
+              "losses": 1,
+              "draws": 0
+            },
+            "612d3747a8241819554006eb": {
+              "wins": 0,
+              "losses": 1,
+              "draws": 0
+            },
+            "612d3747a8241819554006f7": {
+              "wins": 1,
+              "losses": 0,
+              "draws": 0
+            },
+            "612d3747a8241819554006e8": {
+              "wins": 1,
+              "losses": 0,
+              "draws": 0
+            }
+          }
+        },
+        {
+          "id": "612d3747a8241819554006fd",
+          "name": "Sweeping Beauties",
+          "gamesPlayed": 5,
+          "wins": 3,
+          "losses": 2,
+          "draws": 0,
+          "points": 6,
+          "totalScored": 24,
+          "endsWon": 17,
+          "highEnd": 3,
+          "recordVsOtherTeams": {
+            "612d3747a8241819554006f1": {
+              "wins": 0,
+              "losses": 1,
+              "draws": 0
+            },
+            "612d3747a8241819554006e5": {
+              "wins": 1,
+              "losses": 1,
+              "draws": 0
+            },
+            "612d3747a8241819554006ee": {
+              "wins": 1,
+              "losses": 0,
+              "draws": 0
+            },
+            "612d3747a8241819554006f4": {
+              "wins": 1,
+              "losses": 0,
+              "draws": 0
+            }
+          }
+        },
+        {
+          "id": "612d3747a8241819554006eb",
+          "name": "Legion of Broom",
+          "gamesPlayed": 5,
+          "wins": 2,
+          "losses": 2,
+          "draws": 1,
+          "points": 5,
+          "totalScored": 25,
+          "endsWon": 15,
+          "highEnd": 5,
+          "recordVsOtherTeams": {
+            "612d3747a8241819554006e8": {
+              "wins": 1,
+              "losses": 0,
+              "draws": 0
+            },
+            "612d3747a8241819554006fa": {
+              "wins": 0,
+              "losses": 1,
+              "draws": 0
+            },
+            "612d3747a824181955400700": {
+              "wins": 1,
+              "losses": 0,
+              "draws": 0
+            },
+            "612d3747a8241819554006f1": {
+              "wins": 0,
+              "losses": 1,
+              "draws": 0
+            },
+            "612d3747a8241819554006ee": {
+              "wins": 0,
+              "losses": 0,
+              "draws": 1
+            }
+          }
+        },
+        {
+          "id": "612d3747a8241819554006f4",
+          "name": "House Proud",
+          "gamesPlayed": 5,
+          "wins": 2,
+          "losses": 3,
+          "draws": 0,
+          "points": 4,
+          "totalScored": 27,
+          "endsWon": 16,
+          "highEnd": 4,
+          "recordVsOtherTeams": {
+            "612d3747a8241819554006fa": {
+              "wins": 0,
+              "losses": 1,
+              "draws": 0
+            },
+            "612d3747a824181955400700": {
+              "wins": 1,
+              "losses": 0,
+              "draws": 0
+            },
+            "612d3747a8241819554006f7": {
+              "wins": 1,
+              "losses": 0,
+              "draws": 0
+            },
+            "612d3747a8241819554006fd": {
+              "wins": 0,
+              "losses": 1,
+              "draws": 0
+            },
+            "612d3747a8241819554006f1": {
+              "wins": 0,
+              "losses": 1,
+              "draws": 0
+            }
+          }
+        },
+        {
+          "id": "612d3747a8241819554006f7",
+          "name": "Fruit of the broom",
+          "gamesPlayed": 5,
+          "wins": 2,
+          "losses": 3,
+          "draws": 0,
+          "points": 4,
+          "totalScored": 21,
+          "endsWon": 9,
+          "highEnd": 6,
+          "recordVsOtherTeams": {
+            "612d3747a8241819554006e5": {
+              "wins": 1,
+              "losses": 0,
+              "draws": 0
+            },
+            "612d3747a8241819554006ee": {
+              "wins": 1,
+              "losses": 0,
+              "draws": 0
+            },
+            "612d3747a8241819554006f4": {
+              "wins": 0,
+              "losses": 1,
+              "draws": 0
+            },
+            "612d3747a824181955400700": {
+              "wins": 0,
+              "losses": 1,
+              "draws": 0
+            },
+            "612d3747a8241819554006fa": {
+              "wins": 0,
+              "losses": 1,
+              "draws": 0
+            }
+          }
+        },
+        {
+          "id": "612d3747a8241819554006ee",
+          "name": "Curly Fries",
+          "gamesPlayed": 5,
+          "wins": 1,
+          "losses": 3,
+          "draws": 1,
+          "points": 3,
+          "totalScored": 15,
+          "endsWon": 10,
+          "highEnd": 4,
+          "recordVsOtherTeams": {
+            "612d3747a824181955400700": {
+              "wins": 0,
+              "losses": 1,
+              "draws": 0
+            },
+            "612d3747a8241819554006f7": {
+              "wins": 0,
+              "losses": 1,
+              "draws": 0
+            },
+            "612d3747a8241819554006fd": {
+              "wins": 0,
+              "losses": 1,
+              "draws": 0
+            },
+            "612d3747a8241819554006e8": {
+              "wins": 1,
+              "losses": 0,
+              "draws": 0
+            },
+            "612d3747a8241819554006eb": {
+              "wins": 0,
+              "losses": 0,
+              "draws": 1
+            }
+          }
+        },
+        {
+          "id": "612d3747a8241819554006e8",
+          "name": "Romancing the Stone",
+          "gamesPlayed": 5,
+          "wins": 1,
+          "losses": 4,
+          "draws": 0,
+          "points": 2,
+          "totalScored": 23,
+          "endsWon": 14,
+          "highEnd": 3,
+          "recordVsOtherTeams": {
+            "612d3747a8241819554006eb": {
+              "wins": 0,
+              "losses": 1,
+              "draws": 0
+            },
+            "612d3747a8241819554006f1": {
+              "wins": 0,
+              "losses": 1,
+              "draws": 0
+            },
+            "612d3747a8241819554006e5": {
+              "wins": 1,
+              "losses": 0,
+              "draws": 0
+            },
+            "612d3747a8241819554006ee": {
+              "wins": 0,
+              "losses": 1,
+              "draws": 0
+            },
+            "612d3747a824181955400700": {
+              "wins": 0,
+              "losses": 1,
+              "draws": 0
+            }
+          }
+        },
+        {
+          "id": "612d3747a8241819554006e5",
+          "name": "Keep America Curling Again",
+          "gamesPlayed": 5,
+          "wins": 1,
+          "losses": 4,
+          "draws": 0,
+          "points": 2,
+          "totalScored": 14,
+          "endsWon": 10,
+          "highEnd": 2,
+          "recordVsOtherTeams": {
+            "612d3747a8241819554006f7": {
+              "wins": 0,
+              "losses": 1,
+              "draws": 0
+            },
+            "612d3747a8241819554006fd": {
+              "wins": 1,
+              "losses": 1,
+              "draws": 0
+            },
+            "612d3747a8241819554006e8": {
+              "wins": 0,
+              "losses": 1,
+              "draws": 0
+            },
+            "612d3747a8241819554006fa": {
+              "wins": 0,
+              "losses": 1,
+              "draws": 0
+            }
+          }
+        }
+      ],
+      "divisions": {
+        "Ocean": [
+          {
+            "id": "612d3747a8241819554006f1",
+            "name": "Broom Service",
+            "gamesPlayed": 5,
+            "wins": 5,
+            "losses": 0,
+            "draws": 0,
+            "points": 10,
+            "totalScored": 35,
+            "endsWon": 18,
+            "highEnd": 5,
+            "recordVsOtherTeams": {
+              "612d3747a8241819554006fd": {
+                "wins": 1,
+                "losses": 0,
+                "draws": 0
+              },
+              "612d3747a8241819554006e8": {
+                "wins": 1,
+                "losses": 0,
+                "draws": 0
+              },
+              "612d3747a8241819554006fa": {
+                "wins": 1,
+                "losses": 0,
+                "draws": 0
+              },
+              "612d3747a8241819554006eb": {
+                "wins": 1,
+                "losses": 0,
+                "draws": 0
+              },
+              "612d3747a8241819554006f4": {
+                "wins": 1,
+                "losses": 0,
+                "draws": 0
+              }
+            }
+          },
+          {
+            "id": "612d3747a8241819554006eb",
+            "name": "Legion of Broom",
+            "gamesPlayed": 5,
+            "wins": 2,
+            "losses": 2,
+            "draws": 1,
+            "points": 5,
+            "totalScored": 25,
+            "endsWon": 15,
+            "highEnd": 5,
+            "recordVsOtherTeams": {
+              "612d3747a8241819554006e8": {
+                "wins": 1,
+                "losses": 0,
+                "draws": 0
+              },
+              "612d3747a8241819554006fa": {
+                "wins": 0,
+                "losses": 1,
+                "draws": 0
+              },
+              "612d3747a824181955400700": {
+                "wins": 1,
+                "losses": 0,
+                "draws": 0
+              },
+              "612d3747a8241819554006f1": {
+                "wins": 0,
+                "losses": 1,
+                "draws": 0
+              },
+              "612d3747a8241819554006ee": {
+                "wins": 0,
+                "losses": 0,
+                "draws": 1
+              }
+            }
+          },
+          {
+            "id": "612d3747a8241819554006f4",
+            "name": "House Proud",
+            "gamesPlayed": 5,
+            "wins": 2,
+            "losses": 3,
+            "draws": 0,
+            "points": 4,
+            "totalScored": 27,
+            "endsWon": 16,
+            "highEnd": 4,
+            "recordVsOtherTeams": {
+              "612d3747a8241819554006fa": {
+                "wins": 0,
+                "losses": 1,
+                "draws": 0
+              },
+              "612d3747a824181955400700": {
+                "wins": 1,
+                "losses": 0,
+                "draws": 0
+              },
+              "612d3747a8241819554006f7": {
+                "wins": 1,
+                "losses": 0,
+                "draws": 0
+              },
+              "612d3747a8241819554006fd": {
+                "wins": 0,
+                "losses": 1,
+                "draws": 0
+              },
+              "612d3747a8241819554006f1": {
+                "wins": 0,
+                "losses": 1,
+                "draws": 0
+              }
+            }
+          },
+          {
+            "id": "612d3747a8241819554006ee",
+            "name": "Curly Fries",
+            "gamesPlayed": 5,
+            "wins": 1,
+            "losses": 3,
+            "draws": 1,
+            "points": 3,
+            "totalScored": 15,
+            "endsWon": 10,
+            "highEnd": 4,
+            "recordVsOtherTeams": {
+              "612d3747a824181955400700": {
+                "wins": 0,
+                "losses": 1,
+                "draws": 0
+              },
+              "612d3747a8241819554006f7": {
+                "wins": 0,
+                "losses": 1,
+                "draws": 0
+              },
+              "612d3747a8241819554006fd": {
+                "wins": 0,
+                "losses": 1,
+                "draws": 0
+              },
+              "612d3747a8241819554006e8": {
+                "wins": 1,
+                "losses": 0,
+                "draws": 0
+              },
+              "612d3747a8241819554006eb": {
+                "wins": 0,
+                "losses": 0,
+                "draws": 1
+              }
+            }
+          },
+          {
+            "id": "612d3747a8241819554006e5",
+            "name": "Keep America Curling Again",
+            "gamesPlayed": 5,
+            "wins": 1,
+            "losses": 4,
+            "draws": 0,
+            "points": 2,
+            "totalScored": 14,
+            "endsWon": 10,
+            "highEnd": 2,
+            "recordVsOtherTeams": {
+              "612d3747a8241819554006f7": {
+                "wins": 0,
+                "losses": 1,
+                "draws": 0
+              },
+              "612d3747a8241819554006fd": {
+                "wins": 1,
+                "losses": 1,
+                "draws": 0
+              },
+              "612d3747a8241819554006e8": {
+                "wins": 0,
+                "losses": 1,
+                "draws": 0
+              },
+              "612d3747a8241819554006fa": {
+                "wins": 0,
+                "losses": 1,
+                "draws": 0
+              }
+            }
+          }
+        ],
+        "Parkside": [
+          {
+            "id": "612d3747a8241819554006fa",
+            "name": "Riot Currl",
+            "gamesPlayed": 5,
+            "wins": 4,
+            "losses": 1,
+            "draws": 0,
+            "points": 8,
+            "totalScored": 25,
+            "endsWon": 17,
+            "highEnd": 3,
+            "recordVsOtherTeams": {
+              "612d3747a8241819554006f4": {
+                "wins": 1,
+                "losses": 0,
+                "draws": 0
+              },
+              "612d3747a8241819554006eb": {
+                "wins": 1,
+                "losses": 0,
+                "draws": 0
+              },
+              "612d3747a8241819554006f1": {
+                "wins": 0,
+                "losses": 1,
+                "draws": 0
+              },
+              "612d3747a8241819554006e5": {
+                "wins": 1,
+                "losses": 0,
+                "draws": 0
+              },
+              "612d3747a8241819554006f7": {
+                "wins": 1,
+                "losses": 0,
+                "draws": 0
+              }
+            }
+          },
+          {
+            "id": "612d3747a824181955400700",
+            "name": "Curl Jam",
+            "gamesPlayed": 5,
+            "wins": 3,
+            "losses": 2,
+            "draws": 0,
+            "points": 6,
+            "totalScored": 25,
+            "endsWon": 16,
+            "highEnd": 3,
+            "recordVsOtherTeams": {
+              "612d3747a8241819554006ee": {
+                "wins": 1,
+                "losses": 0,
+                "draws": 0
+              },
+              "612d3747a8241819554006f4": {
+                "wins": 0,
+                "losses": 1,
+                "draws": 0
+              },
+              "612d3747a8241819554006eb": {
+                "wins": 0,
+                "losses": 1,
+                "draws": 0
+              },
+              "612d3747a8241819554006f7": {
+                "wins": 1,
+                "losses": 0,
+                "draws": 0
+              },
+              "612d3747a8241819554006e8": {
+                "wins": 1,
+                "losses": 0,
+                "draws": 0
+              }
+            }
+          },
+          {
+            "id": "612d3747a8241819554006fd",
+            "name": "Sweeping Beauties",
+            "gamesPlayed": 5,
+            "wins": 3,
+            "losses": 2,
+            "draws": 0,
+            "points": 6,
+            "totalScored": 24,
+            "endsWon": 17,
+            "highEnd": 3,
+            "recordVsOtherTeams": {
+              "612d3747a8241819554006f1": {
+                "wins": 0,
+                "losses": 1,
+                "draws": 0
+              },
+              "612d3747a8241819554006e5": {
+                "wins": 1,
+                "losses": 1,
+                "draws": 0
+              },
+              "612d3747a8241819554006ee": {
+                "wins": 1,
+                "losses": 0,
+                "draws": 0
+              },
+              "612d3747a8241819554006f4": {
+                "wins": 1,
+                "losses": 0,
+                "draws": 0
+              }
+            }
+          },
+          {
+            "id": "612d3747a8241819554006f7",
+            "name": "Fruit of the broom",
+            "gamesPlayed": 5,
+            "wins": 2,
+            "losses": 3,
+            "draws": 0,
+            "points": 4,
+            "totalScored": 21,
+            "endsWon": 9,
+            "highEnd": 6,
+            "recordVsOtherTeams": {
+              "612d3747a8241819554006e5": {
+                "wins": 1,
+                "losses": 0,
+                "draws": 0
+              },
+              "612d3747a8241819554006ee": {
+                "wins": 1,
+                "losses": 0,
+                "draws": 0
+              },
+              "612d3747a8241819554006f4": {
+                "wins": 0,
+                "losses": 1,
+                "draws": 0
+              },
+              "612d3747a824181955400700": {
+                "wins": 0,
+                "losses": 1,
+                "draws": 0
+              },
+              "612d3747a8241819554006fa": {
+                "wins": 0,
+                "losses": 1,
+                "draws": 0
+              }
+            }
+          },
+          {
+            "id": "612d3747a8241819554006e8",
+            "name": "Romancing the Stone",
+            "gamesPlayed": 5,
+            "wins": 1,
+            "losses": 4,
+            "draws": 0,
+            "points": 2,
+            "totalScored": 23,
+            "endsWon": 14,
+            "highEnd": 3,
+            "recordVsOtherTeams": {
+              "612d3747a8241819554006eb": {
+                "wins": 0,
+                "losses": 1,
+                "draws": 0
+              },
+              "612d3747a8241819554006f1": {
+                "wins": 0,
+                "losses": 1,
+                "draws": 0
+              },
+              "612d3747a8241819554006e5": {
+                "wins": 1,
+                "losses": 0,
+                "draws": 0
+              },
+              "612d3747a8241819554006ee": {
+                "wins": 0,
+                "losses": 1,
+                "draws": 0
+              },
+              "612d3747a824181955400700": {
+                "wins": 0,
+                "losses": 1,
+                "draws": 0
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}
