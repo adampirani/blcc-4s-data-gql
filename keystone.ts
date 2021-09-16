@@ -12,12 +12,14 @@ import { League } from './schemas/League';
 import { Team } from './schemas/Team';
 import { User } from './schemas/User';
 import { Week } from './schemas/Week';
+import { Role } from './schemas/Role';
 import { extendGraphqlSchema } from './resolvers';
 import { insertSeedEnds } from './seed-data/seedEnds';
 import { insertSeedLeagues } from './seed-data/seedLeagues';
 import { insertSeedTeams } from './seed-data/seedTeams';
 import { insertSeedGames } from './seed-data/seedGames';
 import { formatGameWeeks } from './seed-data/formatGameWeeks';
+import { permissionsList } from './schemas/fields';
 
 const databaseURL =
   process.env.DATABASE_URL || 'mongodb://localhost/keystone-blcc-data';
@@ -33,7 +35,6 @@ const { withAuth } = createAuth({
   secretField: 'password',
   initFirstItem: {
     fields: ['name', 'email', 'password'],
-    // TODO: Add in initial roles here
   },
 });
 
@@ -77,6 +78,7 @@ export default withAuth(
       Game,
       GameImage,
       Week,
+      Role,
     }),
     extendGraphqlSchema,
     ui: {
@@ -87,7 +89,7 @@ export default withAuth(
     },
     session: withItemData(statelessSessions(sessionConfig), {
       // GraphQL Query
-      User: 'id name email',
+      User: `id name email role { ${permissionsList.join(' ')} }`,
     }),
   })
 );
