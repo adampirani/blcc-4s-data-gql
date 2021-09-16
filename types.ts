@@ -15,13 +15,14 @@ export type Session = {
     name: string;
     teams?: {
       id: string;
-      // league: {
-      //   name: string;
-      //   id: string;
-      // };
-      // number: number;
-      // slug: string;
-      // name: string;
+      league: {
+        name: string;
+        id: string;
+        slug: string;
+      };
+      number: number;
+      slug: string;
+      name: string;
     }[];
     role?: {
       id: string;

@@ -1,5 +1,6 @@
 import { list } from '@keystone-next/keystone/schema';
 import { text, password, relationship } from '@keystone-next/fields';
+import { permissions } from '../access';
 
 export const User = list({
   // access:
@@ -14,8 +15,10 @@ export const User = list({
     }),
     role: relationship({
       ref: 'Role.assignedTo',
-      // access: {}
+      access: {
+        create: permissions.canManageUsers,
+        update: permissions.canManageUsers,
+      },
     }),
-    // TODO: add roles
   },
 });

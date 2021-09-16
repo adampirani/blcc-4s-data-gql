@@ -32,6 +32,8 @@ export const rules = {
     if (permissions.canManageTeams({ session })) {
       return true;
     }
+
+    return false;
   },
   canManageUsers({ session }: ListAccessArgs) {
     if (!isSignedIn({ session })) {
@@ -45,7 +47,7 @@ export const rules = {
     // Only update themselves
     return { id: session.itemId };
   },
-
+  // TODO, test this out by changing scores for team that isn't yours
   canEditGames({ session }: ListAccessArgs) {
     if (!isSignedIn({ session })) {
       return false;
