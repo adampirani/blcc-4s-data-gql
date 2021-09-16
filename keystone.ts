@@ -46,10 +46,9 @@ export default withAuth(
   config({
     server: {
       cors: {
-        origin: [corsOrigin],
+        origin: corsOrigin,
         credentials: true,
       },
-      port: parseInt(process.env.PORT) || 3000,
     },
     db: {
       adapter: 'mongoose',
