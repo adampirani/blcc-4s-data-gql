@@ -7,11 +7,15 @@ export const User = list({
   fields: {
     name: text({ isRequired: true }),
     email: text({ isRequired: true, isUnique: true }),
-    password: password(),
+    password: password({ isRequired: true }),
     teams: relationship({
       ref: 'Team',
       many: true,
     }),
-    // TODO: add roles, teams
+    role: relationship({
+      ref: 'Role.assignedTo',
+      // access: {}
+    }),
+    // TODO: add roles
   },
 });
