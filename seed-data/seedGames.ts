@@ -40,13 +40,25 @@ export async function insertSeedGames(ks: any) {
       })
       .exec();
 
+    const weekObj = await mongoose
+      .model('Week')
+      .findOne({
+        number: week,
+        league: leagueObject._id,
+      })
+      .exec();
+
     console.log(
       `  🛍️ Adding Game: ${game.slug} to league ${leagueObject.name}`
     );
 
     await mongoose.model('Game').create({
       league: leagueObject._id,
-      week: parseInt(week),
+      week:
+        weekObj ||
+        (await mongoose
+          .model('Week')
+          .create({ number: week, league: leagueObject._id })),
       sheet: parseInt(sheet),
       slug,
       topTeam: topTeamObject._id,
