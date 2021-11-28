@@ -1,6 +1,6 @@
 import { KeystoneContext } from '@keystone-next/types';
-import { EndCreateInput, GameUpdateInput } from '../.keystone/schema-types';
-// import { Session } from '../types';
+import { EndCreateInput, GameUpdateInput } from '../../.keystone/schema-types';
+import { Session } from '../../types';
 
 export default async function submitScore(
   root: any,
@@ -11,11 +11,14 @@ export default async function submitScore(
   }: { gameId: string; gameData: any; userName: string },
   context: KeystoneContext
 ): Promise<GameUpdateInput> {
-  // 1. TODO: query current user, see if signed in
-  //   const session = context.session as Session;
-  //   if (!session.itemId) {
-  //     throw new Error('You must be logged in to do this');
-  //   }
+  // 1.query current user, see if signed in
+  const session = context.session as Session;
+  if (!session.itemId) {
+    throw new Error('You must be logged in to do this');
+  }
+
+  // 1.5 check if user is on a team in the game
+  const isOnTeam = isOnTeamInGame(gameData, session);
 
   // 2. delete existing ends
   const existingEnds = await context.lists.End.findMany({
@@ -41,6 +44,7 @@ export default async function submitScore(
   }));
 
   // 4. return updated game
+  // Unsafe typing here, but updateOne should have the correct type
   return context.lists.Game.updateOne({
     id: gameId,
     data: {

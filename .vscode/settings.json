@@ -13,7 +13,13 @@
     "activityBarBadge.foreground": "#15202b",
     "statusBar.background": "#ff2c70",
     "statusBar.foreground": "#e7e7e7",
-    "statusBarItem.hoverBackground": "#ff5f93"
+    "statusBarItem.hoverBackground": "#ff5f93",
+    "statusBarItem.remoteBackground": "#ff2c70",
+    "statusBarItem.remoteForeground": "#e7e7e7",
+    "editorGroup.border": "#ff5f93",
+    "panel.border": "#ff5f93",
+    "sash.hoverBorder": "#ff5f93",
+    "sideBar.border": "#ff5f93"
   },
   "editor.formatOnSave": true,
   "[javascript]": {
@@ -26,9 +32,6 @@
   "editor.codeActionsOnSave": {
     "source.fixAll": true
   },
-  "prettier.disableLanguages": [
-    "javascript",
-    "javascriptreact"
-  ],
+  "prettier.disableLanguages": ["javascript", "javascriptreact"],
   "peacock.color": "#FF2C70"
 }
