@@ -84,4 +84,28 @@ export const leagues = [
   //   numRegSeasonWeeks: 6,
   //   hasDivisions: false,
   // },
+  // {
+  //   slug: '2021-f-w-e',
+  //   name: '2021 Fall Wednesday Early',
+  //   isActive: true,
+  //   currentWeek: 1,
+  //   numRegSeasonWeeks: 6,
+  //   hasDivisions: false,
+  // },
+  // {
+  //   slug: '2021-f-w-l',
+  //   name: '2021 Fall Wednesday Late',
+  //   isActive: true,
+  //   currentWeek: 1,
+  //   numRegSeasonWeeks: 6,
+  //   hasDivisions: false,
+  // },
+  // {
+  //   slug: '2021-f-s',
+  //   name: '2021 Fall Sunday',
+  //   isActive: true,
+  //   currentWeek: 1,
+  //   numRegSeasonWeeks: 6,
+  //   hasDivisions: false,
+  // },
 ];

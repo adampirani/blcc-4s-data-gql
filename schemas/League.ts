@@ -33,6 +33,14 @@ export const League = list({
         },
       },
     }),
+    isTest: checkbox({
+      defaultValue: false,
+      ui: {
+        createView: {
+          fieldMode: 'hidden',
+        },
+      },
+    }),
   },
   ui: {
     listView: {
