@@ -1,5 +1,10 @@
 import { list } from '@keystone-next/keystone/schema';
-import { integer, relationship, virtual } from '@keystone-next/fields';
+import {
+  integer,
+  relationship,
+  timestamp,
+  virtual,
+} from '@keystone-next/fields';
 
 export const Week = list({
   fields: {
@@ -12,6 +17,7 @@ export const Week = list({
     league: relationship({ ref: 'League.weeks' }),
     games: relationship({ ref: 'Game.week', many: true }),
     number: integer({ isRequired: true }),
+    date: timestamp(),
   },
   ui: {
     listView: {

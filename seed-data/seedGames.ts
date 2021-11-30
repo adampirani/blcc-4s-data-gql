@@ -11,6 +11,7 @@ export async function insertSeedGames(ks: any) {
     const {
       league,
       week,
+      weekDate,
       sheet,
       slug,
       topTeam,
@@ -56,9 +57,11 @@ export async function insertSeedGames(ks: any) {
       league: leagueObject._id,
       week:
         weekObj ||
-        (await mongoose
-          .model('Week')
-          .create({ number: week, league: leagueObject._id })),
+        (await mongoose.model('Week').create({
+          number: week,
+          league: leagueObject._id,
+          date: new Date(weekDate),
+        })),
       sheet: parseInt(sheet),
       slug,
       topTeam: topTeamObject._id,
