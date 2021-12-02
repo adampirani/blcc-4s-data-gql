@@ -22,7 +22,7 @@ export const Substitution = list({
           .findById(league)
           .exec();
 
-        return `${leagueObject.name} | ${teamObject.name} | Wk ${weekObject.number} | Spot ${spot}`;
+        return `${leagueObject.slug} | ${teamObject.name} | Wk ${weekObject.number} | Spot ${spot}`;
       },
     }),
     league: relationship({
