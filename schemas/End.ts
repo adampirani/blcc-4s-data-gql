@@ -1,6 +1,5 @@
 import { integer, relationship, select, virtual } from '@keystone-next/fields';
 import { list } from '@keystone-next/keystone/schema';
-import { EndsCreateInput } from '../.keystone/schema-types';
 
 export const End = list({
   fields: {

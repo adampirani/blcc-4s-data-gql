@@ -13,6 +13,7 @@ import { Team } from './schemas/Team';
 import { User } from './schemas/User';
 import { Week } from './schemas/Week';
 import { Role } from './schemas/Role';
+import { Substitution } from './schemas/Substitution';
 import { extendGraphqlSchema } from './resolvers';
 import { insertSeedEnds } from './seed-data/seedEnds';
 import { insertSeedLeagues } from './seed-data/seedLeagues';
@@ -77,6 +78,7 @@ export default withAuth(
       Game,
       GameImage,
       Week,
+      Substitution,
       Role,
     }),
     extendGraphqlSchema,
