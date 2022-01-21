@@ -1,5 +1,5 @@
 import { getItems } from '@keystonejs/server-side-graphql-client';
-import { teams } from './teams';
+import { teams } from './data/teams';
 
 export async function insertSeedTeams(ks: any) {
   // Keystone API changed, so we need to check for both versions to get keystone

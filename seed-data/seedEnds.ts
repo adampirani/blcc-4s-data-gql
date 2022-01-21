@@ -1,4 +1,4 @@
-import { ends } from "./ends";
+import { ends } from './data/ends';
 
 export async function insertSeedEnds(ks: any) {
   // Keystone API changed, so we need to check for both versions to get keystone
@@ -11,7 +11,7 @@ export async function insertSeedEnds(ks: any) {
     const { game, number, scoringTeam, score } = end;
 
     const gameObject = await mongoose
-      .model("Game")
+      .model('Game')
       .findOne({
         slug: game,
       })
@@ -19,14 +19,14 @@ export async function insertSeedEnds(ks: any) {
 
     console.log(`  🛍️ Adding End: ${number} to game ${gameObject.slug}`);
 
-    await mongoose.model("End").create({
+    await mongoose.model('End').create({
       game: gameObject._id,
       number,
-      scoringTeam: score === 0 ? "BLANK" : scoringTeam,
+      scoringTeam: score === 0 ? 'BLANK' : scoringTeam,
       score,
     });
   }
   console.log(`✅ Seed Data Inserted: ${ends.length} ends`);
-  console.log("👋 Please start the process with `yarn dev` or `npm run dev`");
+  console.log('👋 Please start the process with `yarn dev` or `npm run dev`');
   process.exit();
 }

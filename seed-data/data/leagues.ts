@@ -108,4 +108,28 @@ export const leagues = [
   //   numRegSeasonWeeks: 6,
   //   hasDivisions: false,
   // },
+  // {
+  //   slug: '2022-w-w-e',
+  //   name: '2022 Winter Wednesday Early',
+  //   isActive: true,
+  //   currentWeek: 1,
+  //   numRegSeasonWeeks: 5,
+  //   hasDivisions: true,
+  // },
+  // {
+  //   slug: '2022-w-w-l',
+  //   name: '2022 Winter Wednesday Late',
+  //   isActive: true,
+  //   currentWeek: 1,
+  //   numRegSeasonWeeks: 6,
+  //   hasDivisions: false,
+  // },
+  // {
+  //   slug: '2022-w-s',
+  //   name: '2022 Winter Sunday',
+  //   isActive: true,
+  //   currentWeek: 1,
+  //   numRegSeasonWeeks: 5,
+  //   hasDivisions: true,
+  // },
 ];

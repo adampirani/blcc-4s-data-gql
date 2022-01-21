@@ -1,4 +1,4 @@
-import { games } from './games';
+import { games } from './data/games';
 
 export async function insertSeedGames(ks: any) {
   // Keystone API changed, so we need to check for both versions to get keystone
