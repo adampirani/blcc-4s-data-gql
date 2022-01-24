@@ -1,4 +1,4 @@
-import { leagues } from './leagues';
+import { leagues } from './data/leagues';
 
 export async function insertSeedLeagues(ks: any) {
   // Keystone API changed, so we need to check for both versions to get keystone
