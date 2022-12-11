@@ -41,7 +41,7 @@ const { withAuth } = createAuth({
 
 const corsOrigin = process.env.FRONTEND_URL_REGEX
   ? new RegExp(process.env.FRONTEND_URL_REGEX)
-  : process.env.FRONTEND_URL;
+  : process.env.FRONTEND_URL || 'http://localhost:3000';
 
 export default withAuth(
   config({

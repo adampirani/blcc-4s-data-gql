@@ -10,8 +10,12 @@ export const Week = list({
   fields: {
     label: virtual({
       graphQLReturnType: 'String',
-      resolver(week: { number: number }) {
-        return `${week.number}`;
+      async resolver(week: { league: string; number: number }, _args, context) {
+        const league: { slug: string } = await context.lists.League.findOne({
+          where: { id: week.league.toString() },
+          resolveFields: 'slug',
+        });
+        return `${league.slug}-${week.number}`;
       },
     }),
     league: relationship({ ref: 'League.weeks' }),
@@ -21,7 +25,8 @@ export const Week = list({
   },
   ui: {
     listView: {
-      initialColumns: ['league', 'number'],
+      initialColumns: ['label', 'league', 'number'],
+      initialSort: { field: 'date', direction: 'DESC' },
     },
   },
 });

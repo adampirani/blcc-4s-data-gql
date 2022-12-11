@@ -48,6 +48,7 @@ export const Game = list({
         'submittedBy',
         'image',
       ],
+      initialSort: { field: 'league', direction: 'DESC' },
     },
   },
 });

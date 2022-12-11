@@ -18,7 +18,14 @@
   "eslintConfig": {
     "extends": "wesbos/typescript.js",
     "rules": {
-      "@typescript-eslint/no-unsafe-assignment": 0
+      "@typescript-eslint/no-unsafe-assignment": 0,
+      "no-unused-vars": [
+        "error",
+        {
+          "vars": "all",
+          "varsIgnorePattern": "^_"
+        }
+      ]
     }
   },
   "babel": {
@@ -85,5 +92,8 @@
   "prettier": {
     "singleQuote": true
   },
-  "repository": "https://github.com/adampirani/blcc-4s-data-gql"
+  "repository": "https://github.com/adampirani/blcc-4s-data-gql",
+  "volta": {
+    "node": "16.9.1"
+  }
 }
