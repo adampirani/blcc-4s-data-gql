@@ -15,6 +15,7 @@ export const League = list({
     name: text({ isUnique: true, isRequired: true }),
     isActive: checkbox({ defaultValue: false }),
     weeks: relationship({ ref: 'Week.league', many: true }),
+    games: relationship({ ref: 'Game.league', many: true }),
     leagueStart: timestamp(),
     currentWeek: integer({
       defaultValue: 1,

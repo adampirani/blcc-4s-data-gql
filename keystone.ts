@@ -20,6 +20,7 @@ import { insertSeedLeagues } from './seed-data/seedLeagues';
 import { insertSeedTeams } from './seed-data/seedTeams';
 import { insertSeedGames } from './seed-data/seedGames';
 import { formatGameWeeks } from './seed-data/formatGameWeeks';
+import { copyGameWeeksIntegers } from './seed-data/copyGameWeeksIntegers';
 import { permissionsList } from './schemas/fields';
 
 const databaseURL =
@@ -66,6 +67,8 @@ export default withAuth(
           await insertSeedEnds(keystone);
         } else if (process.argv.includes('--format-game-weeks')) {
           await formatGameWeeks(keystone);
+        } else if (process.argv.includes('--copy-game-weeks-integers')) {
+          await copyGameWeeksIntegers(keystone);
         }
       },
     },

@@ -1,23 +1,70 @@
 import { KeystoneContext } from '@keystone-next/types';
-// TODO: Type the hell out of this file
-// import { Session } from '../types';
 
 const graphql = String.raw; // fake template literal
 
 const POINTS_FOR_WIN = 2;
 const POINTS_FOR_DRAW = 1;
 
+type TeamStandings = {
+  id: string;
+  name: string;
+  gamesPlayed: number;
+  wins: number;
+  losses: number;
+  draws: number;
+  points: number;
+  totalScored: number;
+  endsWon: number;
+  highEnd: number;
+  recordVsOtherTeams: {
+    [key: string]: {
+      wins: number;
+      losses: number;
+      draws: number;
+    };
+  };
+};
+
+type GameQuery = {
+  topTeam: {
+    id: string;
+  };
+  bottomTeam: {
+    id: string;
+  };
+  ends: [
+    {
+      number: number;
+      scoringTeam: 'TOP' | 'BOTTOM';
+      score: number;
+    }
+  ];
+  weekInteger: number;
+};
+
+type AllLeaguesQuery = {
+  numRegSeasonWeeks: number;
+  games: GameQuery[];
+};
+
+type AllTeamsQuery = {
+  id: string;
+  name: string;
+  division: string;
+};
+
 /**
  * Update `endsWon`, `totalScored` and `highEnd` for the teams involved in a game
- * @param {Number} score
- * @param {String} scoring_team 'top|bottom'
- * @param {*} topTeamObj
- * @param {*} bottomTeamObj
  */
-const updateTeamStats = (score, scoring_team, topTeamObj, bottomTeamObj) => {
+const updateTeamStats = (
+  score: number,
+  scoringTeam: 'TOP' | 'BOTTOM',
+  topTeamObj: TeamStandings,
+  bottomTeamObj: TeamStandings
+) => {
   if (score > 0) {
-    const scoringTeamObj = scoring_team === 'TOP' ? topTeamObj : bottomTeamObj;
-    scoringTeamObj.endsWon++;
+    const scoringTeamObj = scoringTeam === 'TOP' ? topTeamObj : bottomTeamObj;
+    scoringTeamObj.endsWon += 1;
     scoringTeamObj.totalScored += score;
     if (score > scoringTeamObj.highEnd) {
       scoringTeamObj.highEnd = score;
@@ -34,6 +81,11 @@ const updateTeamRecords = ({
   bottomTeamObj,
   topTeamScore,
   bottomTeamScore,
+}: {
+  topTeamObj: TeamStandings;
+  bottomTeamObj: TeamStandings;
+  topTeamScore: number;
+  bottomTeamScore: number;
 }) => {
   if (!topTeamObj.recordVsOtherTeams[bottomTeamObj.id]) {
     topTeamObj.recordVsOtherTeams[bottomTeamObj.id] = {
@@ -50,30 +102,30 @@ const updateTeamRecords = ({
     };
   }
   if (topTeamScore > bottomTeamScore) {
-    topTeamObj.wins++;
+    topTeamObj.wins += 1;
     topTeamObj.points += POINTS_FOR_WIN;
-    topTeamObj.recordVsOtherTeams[bottomTeamObj.id].wins++;
-    bottomTeamObj.losses++;
-    bottomTeamObj.recordVsOtherTeams[topTeamObj.id].losses++;
+    topTeamObj.recordVsOtherTeams[bottomTeamObj.id].wins += 1;
+    bottomTeamObj.losses += 1;
+    bottomTeamObj.recordVsOtherTeams[topTeamObj.id].losses += 1;
   } else if (bottomTeamScore > topTeamScore) {
-    bottomTeamObj.wins++;
+    bottomTeamObj.wins += 1;
     bottomTeamObj.points += POINTS_FOR_WIN;
-    bottomTeamObj.recordVsOtherTeams[topTeamObj.id].wins++;
-    topTeamObj.losses++;
-    topTeamObj.recordVsOtherTeams[bottomTeamObj.id].losses++;
+    bottomTeamObj.recordVsOtherTeams[topTeamObj.id].wins += 1;
+    topTeamObj.losses += 1;
+    topTeamObj.recordVsOtherTeams[bottomTeamObj.id].losses += 1;
   } else {
     // tie
-    bottomTeamObj.draws++;
+    bottomTeamObj.draws += 1;
     bottomTeamObj.points += POINTS_FOR_DRAW;
-    bottomTeamObj.recordVsOtherTeams[topTeamObj.id].draws++;
-    topTeamObj.draws++;
+    bottomTeamObj.recordVsOtherTeams[topTeamObj.id].draws += 1;
+    topTeamObj.draws += 1;
     topTeamObj.points += POINTS_FOR_DRAW;
-    topTeamObj.recordVsOtherTeams[bottomTeamObj.id].draws++;
+    topTeamObj.recordVsOtherTeams[bottomTeamObj.id].draws += 1;
   }
 };
 
 // Sorting / tiebreakers
-const standingsSort = (teamA, teamB) => {
+const standingsSort = (teamA: TeamStandings, teamB: TeamStandings) => {
   // First sort by points (2 for wins, 1 for tie)
   const pointsDiff = teamB.points - teamA.points;
   if (pointsDiff) {
@@ -105,7 +157,7 @@ const standingsSort = (teamA, teamB) => {
 };
 
 export default async function getStandings(
-  root: any,
+  _,
   { leagueSlug }: { leagueSlug: string },
   context: KeystoneContext
 ): Promise<{ teams: any; divisions: any }> {
@@ -115,11 +167,17 @@ export default async function getStandings(
   //     throw new Error('You must be logged in to do this');
   //   }
 
-  const divisions = {};
-  const teamIdToIndex = {};
+  const divisions: {
+    [key: string]: TeamStandings[];
+  } = {};
+  const teamIdToIndex: {
+    [key: string]: number;
+  } = {};
+
+  type AllTeamsRecord = Record<'allTeams', Array<AllTeamsQuery>>;
 
   // Get all teams in a league
-  const teamsByLeague = await context.graphql.run({
+  const teamsByLeague: AllTeamsRecord = await context.graphql.run({
     query: graphql`
       query TEAMS_BY_LEAGUE_QUERY($leagueSlug: ID!) {
         allTeams(where: { league: { slug: $leagueSlug } }) {
@@ -136,14 +194,10 @@ export default async function getStandings(
 
   // Initialize team record objects
   const teams = teamsByLeague.allTeams.map((team, index) => {
-    const {
-      id,
-      name,
-      division,
-    }: { id: string; name: string; division: string } = team;
+    const { id, name, division } = team;
     teamIdToIndex[id] = index;
 
-    const teamObj = {
+    const teamObj: TeamStandings = {
       id,
       name,
       gamesPlayed: 0,
@@ -168,28 +222,27 @@ export default async function getStandings(
     return teamObj;
   });
 
+  type AllLeaguesRecord = Record<'allLeagues', Array<AllLeaguesQuery>>;
+
   // Get all weeks/games/ends from a league
-  const league = await context.graphql.run({
+  const league: AllLeaguesRecord = await context.graphql.run({
     query: graphql`
       query LEAGUE_WEEKS_QUERY($leagueSlug: ID!) {
         allLeagues(where: { slug: $leagueSlug }) {
-          # allWeeks(where: { league: { slug: $leagueSlug } }) {
           numRegSeasonWeeks
-          weeks {
-            number
-            games {
-              topTeam {
-                id
-              }
-              bottomTeam {
-                id
-              }
-              ends {
-                number
-                scoringTeam
-                score
-              }
+          games {
+            topTeam {
+              id
             }
+            bottomTeam {
+              id
+            }
+            ends {
+              number
+              scoringTeam
+              score
+            }
+            weekInteger
           }
         }
       }
@@ -199,53 +252,51 @@ export default async function getStandings(
     },
   });
 
-  const { numRegSeasonWeeks, weeks } = league.allLeagues[0];
+  const { numRegSeasonWeeks, games } = league.allLeagues[0];
 
-  weeks.forEach((week) => {
-    const { games, number } = week;
+  games.forEach((game) => {
+    const { topTeam, bottomTeam, ends, weekInteger } = game;
 
     // Don't count playoff weeks
-    if (number > numRegSeasonWeeks) {
+    if (weekInteger > numRegSeasonWeeks) {
       return;
     }
 
-    games.forEach((game) => {
-      const { topTeam, bottomTeam, ends } = game;
+    // Don't count games with no ends
+    if (!ends.length) {
+      return;
+    }
 
-      // Don't count games with no ends
-      if (!ends.length) {
-        return;
+    const { id: topTeamId } = topTeam;
+    const { id: bottomTeamId } = bottomTeam;
+
+    // Initialize Game
+    let topTeamScore = 0;
+    let bottomTeamScore = 0;
+    const topTeamObj = teams[teamIdToIndex[topTeamId]];
+    const bottomTeamObj = teams[teamIdToIndex[bottomTeamId]];
+    topTeamObj.gamesPlayed += 1;
+    bottomTeamObj.gamesPlayed += 1;
+
+    ends.forEach((end, endIndex) => {
+      const { score, scoringTeam } = end;
+      const isLastEnd = endIndex === ends.length - 1;
+
+      updateTeamStats(score, scoringTeam, topTeamObj, bottomTeamObj);
+      if (scoringTeam === 'TOP') {
+        topTeamScore += score;
+      } else {
+        bottomTeamScore += score;
       }
 
-      const { id: top_team } = topTeam;
-      const { id: bottom_team } = bottomTeam;
-
-      // Initialize Game
-      let topTeamScore = 0;
-      let bottomTeamScore = 0;
-      const topTeamObj = teams[teamIdToIndex[top_team]];
-      const bottomTeamObj = teams[teamIdToIndex[bottom_team]];
-      topTeamObj.gamesPlayed++;
-      bottomTeamObj.gamesPlayed++;
-
-      ends.forEach((end, endIndex) => {
-        const { score, scoringTeam: scoring_team } = end;
-        const isLastEnd = endIndex === ends.length - 1;
-
-        updateTeamStats(score, scoring_team, topTeamObj, bottomTeamObj);
-        scoring_team === 'TOP'
-          ? (topTeamScore += score)
-          : (bottomTeamScore += score);
-
-        if (isLastEnd) {
-          updateTeamRecords({
-            topTeamObj,
-            bottomTeamObj,
-            topTeamScore,
-            bottomTeamScore,
-          });
-        }
-      });
+      if (isLastEnd) {
+        updateTeamRecords({
+          topTeamObj,
+          bottomTeamObj,
+          topTeamScore,
+          bottomTeamScore,
+        });
+      }
     });
   });
 

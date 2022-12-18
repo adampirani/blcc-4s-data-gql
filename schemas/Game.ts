@@ -4,11 +4,12 @@ import { list } from '@keystone-next/keystone/schema';
 export const Game = list({
   fields: {
     league: relationship({
-      ref: 'League',
+      ref: 'League.games',
     }),
     week: relationship({
       ref: 'Week.games',
     }),
+    weekInteger: integer(),
     sheet: integer({
       isRequired: true,
     }),
