@@ -8,7 +8,7 @@ export async function copyGameWeeksIntegers(ks: KeystoneContext) {
   const mongoose = adapter.mongoose as Mongoose;
 
   const allGames = await mongoose.model('Game').find({}).exec();
-  z;
+
   console.log(`🎯 Formatting game dates Data: ${allGames.length} games`);
   for (const game of allGames) {
     const { slug } = game;
