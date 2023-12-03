@@ -64,6 +64,7 @@ export async function insertSeedGames(ks: any) {
         })),
       sheet: parseInt(sheet),
       slug,
+      weekInteger: week,
       topTeam: topTeamObject._id,
       bottomTeam: bottomTeamObject._id,
       dateSubmitted: dateSubmitted ? new Date(dateSubmitted) : new Date(),
