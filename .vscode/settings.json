@@ -31,5 +31,6 @@
     "source.fixAll": "explicit"
   },
   "prettier.disableLanguages": ["javascript", "javascriptreact"],
-  "peacock.color": "#FF2C70"
+  "peacock.color": "#FF2C70",
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
 }
